@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" style="--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CPBank</title>
+    <meta name="description" content="The Next Communist Bank (joking).">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/myStyles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;">
+    <nav class="navbar navbar-light navbar-expand-md bg-secondary py-3" style="background: rgb(7,18,57);box-shadow: 0px -15px 20px 17px;margin-bottom: 15px;">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2" style="border-style: none;"><span class="visually-hidden">Toggle navigation</span><i class="far fa-star" data-bss-hover-animate="tada" style="font-size: 37px;color: var(--bs-info);"></i><sub class="text-center d-flex" style="font-weight: bold;color: var(--bs-warning);margin: 10px;">Menu</sub></button><a class="navbar-brand float-start align-items-center align-self-center" href="#">
+                <div class="vstack gap-0 text-center d-lg-flex justify-content-lg-center align-items-lg-center"><img src="assets/img/logoText.png" style="height: auto;width: 160px;"><small class="text-center" style="font-weight: bold;color: var(--bs-info);font-size: 12px;">Your money, our money.</small></div>
+            </a>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav text-white ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/" style="font-weight: bold;color: rgba(255,255,255,0.9);">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/info" style="font-weight: bold;color: rgba(255,255,255,0.9);">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/transfer" style="font-weight: bold;color: var(--bs-info);">Transfer</a></li>
+                    <li class="nav-item"><a class="nav-link" style="font-weight: bold;color: var(--bs-info);" href="/divert">Divert</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/accounts" style="font-weight: bold;color: var(--bs-warning);">Accounts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container float-none justify-content-lg-center align-items-lg-center">
+        <div class="row g-0 d-md-flex justify-content-md-center align-items-md-center">
+            <div class="col d-flex justify-content-md-center align-items-md-center">
+                <form class="d-xl-flex justify-content-xl-end" style="width: 100%;" action="javascript:;" onsubmit="submitFormAccount()">
+                    <div class="hstack shadow-none d-flex float-start d-sm-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-xl-center" style="background: var(--bs-secondary);padding: 5px;margin: 5px;border-radius: 11px;width: 98%;"><input class="form-control align-self-center" type="text" id="id" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;" name="accountId" placeholder="Enter id number...." required="" minlength="20" maxlength="20" pattern="[a-f0-9]+"><button class="btn btn-primary" type="submit" style="background: var(--bs-primary);margin: 7px;color: var(--bs-info);font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);">Search</button></div>
+                </form>
+                <div class="hstack shadow-none d-flex float-start d-sm-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" style="background: var(--bs-secondary);padding: 5px;margin: 5px;border-radius: 11px;width: 98%;--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;"><i class="fas fa-user-circle" id="accountIcon" style="font-size: 34px;color: #36eba2;height: 38px;margin: 7px;padding: 2px;"></i><span id="account" style="font-weight: bold;color: var(--bs-white);margin: 7px;">Enter the id to get the "owner"</span></div>
+            </div>
+        </div>
+        <div class="alert alert-success alert-dismissible" role="alert" id="alert" style="border-radius: 10px;display: none;"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button><span id="alertMsg"><strong>Alert</strong> text.</span></div>
+        <div class="row g-0 justify-content-md-center align-items-md-center" id="userData">
+            <div class="col-auto d-flex flex-column flex-grow-0 flex-fill m-auto flex-sm-column flex-md-column flex-lg-row justify-content-lg-center align-items-lg-center flex-xl-row flex-xxl-row" style="width: auto;max-width: inherit;">
+                <div class="text-white" id="barChart" style="background: var(--bs-secondary);padding: 10px;border-radius: 10px;margin: 5px;width: 98%;"><canvas data-bss-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[],&quot;datasets&quot;:[{&quot;label&quot;:&quot;$&quot;,&quot;backgroundColor&quot;:&quot;rgba(255,0,0,0.1)&quot;,&quot;data&quot;:[]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;text&quot;:&quot;Daily variation&quot;,&quot;display&quot;:true,&quot;fontColor&quot;:&quot;#ffffff&quot;,&quot;fontSize&quot;:14},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(255,255,255,0.1)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(255,255,255,0.1)&quot;},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#ffffff&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;beginAtZero&quot;:true,&quot;padding&quot;:5}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(255,255,255,0.1)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(255,255,255,0.1)&quot;},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#ffffff&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;beginAtZero&quot;:true,&quot;padding&quot;:5}}]}}}"></canvas></div>
+                <div class="text-white" id="lineChart" style="background: var(--bs-secondary);padding: 10px;border-radius: 10px;margin: 5px;width: 98%;"><canvas data-bss-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[],&quot;datasets&quot;:[{&quot;label&quot;:&quot;$&quot;,&quot;fill&quot;:true,&quot;data&quot;:[],&quot;backgroundColor&quot;:&quot;rgba(255,255,255,0.1)&quot;,&quot;borderColor&quot;:&quot;rgb(255,255,255)&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;bold&quot;,&quot;text&quot;:&quot;Account Overview&quot;,&quot;display&quot;:true,&quot;fontColor&quot;:&quot;#ffffff&quot;,&quot;fontSize&quot;:14},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(255,255,255,0.1)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(255,255,255,0.1)&quot;},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#ffffff&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;beginAtZero&quot;:true,&quot;padding&quot;:5}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(255,255,255,0.1)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(255,255,255,0.1)&quot;},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#ffffff&quot;,&quot;fontStyle&quot;:&quot;italic&quot;,&quot;beginAtZero&quot;:true,&quot;padding&quot;:5}}]}}}"></canvas></div>
+            </div>
+            <div class="col d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-md-center align-items-md-center" style="padding: 5px;">
+                <div class="hstack shadow-none d-flex float-none d-sm-flex d-md-flex d-lg-flex d-xl-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center pippo" style="background: var(--bs-secondary);margin: 0;border-radius: 10px;width: -webkit-fill-available;--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;color: rgb(255,255,255);">
+                    <div class="table-responsive text-white" style="--bs-body-color: #ffffff;color: rgb(255,255,255);margin: 0px;">
+                        <table class="table js-sort-table" id="transactionTable" style="color: #fff !important;">
+                            <thead style="margin: 10px;">
+                                <tr>
+                                    <th>Transaction UUID v4</th>
+                                    <th>Type</th>
+                                    <th>Id Sender</th>
+                                    <th>Id Recipient</th>
+                                    <th class="js-sort-money">Amount</th>
+                                    <th class="js-sort-cpdate">Date</th>
+                                </tr>
+                            </thead>
+                            <tbody id="info"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/cpbank_js.js"></script>
+    <script src="assets/js/sort-table.js"></script>
+</body>
+
+</html>

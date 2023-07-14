@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CPBank</title>
+    <meta name="description" content="The Next Communist Bank (joking).">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="icon" type="image/png" sizes="2048x2048" href="assets/img/logoImage.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/myStyles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;">
+    <nav class="navbar navbar-light navbar-expand-md bg-secondary py-3" style="background: rgb(7,18,57);box-shadow: 0px -15px 20px 17px;margin-bottom: 15px;">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2" style="border-style: none;"><span class="visually-hidden">Toggle navigation</span><i class="far fa-star" data-bss-hover-animate="tada" style="font-size: 37px;color: var(--bs-info);"></i><sub class="text-center d-flex" style="font-weight: bold;color: var(--bs-warning);margin: 10px;">Menu</sub></button><a class="navbar-brand float-start align-items-center align-self-center" href="#">
+                <div class="vstack gap-0 text-center d-lg-flex justify-content-lg-center align-items-lg-center"><img src="assets/img/logoText.png" style="height: auto;width: 160px;"><small class="text-center" style="font-weight: bold;color: var(--bs-info);font-size: 12px;">Your money, our money.</small></div>
+            </a>
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav text-white ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/" style="font-weight: bold;color: rgba(255,255,255,0.9);">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/info" style="font-weight: bold;color: rgba(255,255,255,0.9);">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/transfer" style="font-weight: bold;color: var(--bs-info);">Transfer</a></li>
+                    <li class="nav-item"><a class="nav-link" style="font-weight: bold;color: var(--bs-info);" href="/divert">Divert</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/accounts" style="font-weight: bold;color: var(--bs-warning);">Accounts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container float-none align-content-center justify-content-lg-center align-items-lg-center">
+        <div class="row g-0 d-md-flex align-content-center align-self-center align-items-md-center">
+            <div class="col d-flex justify-content-md-center align-items-md-center">
+                <form class="d-lg-flex justify-content-center align-items-center align-self-center justify-content-md-center justify-content-lg-center justify-content-xl-end" style="width: 100%;margin: auto;" action="javascript:;" onsubmit="submitFormSearchAccount()">
+                    <div class="hstack shadow-none d-flex float-start d-sm-flex flex-column justify-content-center align-items-center flex-sm-column justify-content-sm-center align-items-sm-center flex-md-row flex-lg-row flex-xl-row justify-content-xl-center flex-xxl-row" style="background: var(--bs-secondary);padding: 5px;margin: 5px;border-radius: 11px;width: 98%;"><button class="btn btn-primary activeB" id="accountType" type="button" style="background: var(--bs-primary);margin: 7px;color: #ffffff;font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);margin-right: 7px;" onclick="toggleActive()" ondblclick="togglestupid()">Active</button><input class="form-control align-self-center" type="text" id="accountSurname" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;margin-left: 7px;" name="accounSurname" placeholder="Enter surname or leave blank..." maxlength="30"><input class="form-control align-self-center" type="text" id="accountName" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;" name="accountName" placeholder="Enter name or leave blank..." maxlength="30"><button class="btn btn-primary" type="submit" style="background: var(--bs-primary);margin: 7px;color: var(--bs-info);font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);margin-left: 10px;">Search</button></div>
+                </form>
+            </div>
+        </div>
+        <div class="alert alert-success alert-dismissible" role="alert" id="alert2" style="border-radius: 10px;display: none;"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button><span id="alertMsg2"><strong>Alert</strong> text.</span></div>
+        <div class="row gx-0 gy-0 flex-row justify-content-center align-items-center justify-content-md-center" id="usersData" style="margin: 0px !important;">
+            <div class="col-auto d-flex float-start flex-row align-self-center flex-sm-row flex-md-row justify-content-md-center align-items-md-center flex-lg-column flex-xl-column flex-xxl-column" style="margin: 0px !important;padding: 0px;padding-right: 0px;">
+                <div class="vstack shadow-none float-start d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center align-items-xl-center" style="background: var(--bs-secondary);border-radius: 10px;width: 98%;--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;color: rgb(255,255,255);padding: 15px;margin: 5px;">
+                    <h6 id="selectedId">Select an id...</h6>
+                    <form class="d-flex d-md-flex flex-column justify-content-center align-items-center justify-content-md-center align-items-md-center" onsubmit="saveNewData()" action="javascript:;"><small>Surname</small><input class="form-control align-self-center" type="text" id="selectedSurname" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;margin-left: 7px;" name="accountSurname" placeholder="Select an id first..." maxlength="30" required="" minlength="1"><small>Name</small><input class="form-control align-self-center selectedName" type="text" id="selectedName" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;margin-left: 7px;" name="accountName" placeholder="Select an id first..." maxlength="30" required="" minlength="1">
+                        <div class="hstack d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><button class="btn btn-primary disabled" id="save" type="submit" style="background: var(--bs-primary);margin: 7px;color: #ffffff;font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);margin-right: 7px;" disabled="" value="save">Save</button><button class="btn btn-primary disabled" id="enable" type="button" style="background: var(--bs-primary);margin: 7px;color: #ffffff;font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);margin-right: 7px;" disabled="" value="enable" onclick="enableOrDelete()">---</button></div>
+                    </form>
+                </div>
+                <div class="vstack shadow-none float-start d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center align-items-xl-center" style="background: var(--bs-secondary);border-radius: 10px;width: 98%;--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;color: rgb(255,255,255);padding: 15px;margin: 5px;">
+                    <h6>Create new account</h6>
+                    <form class="d-flex d-md-flex flex-column justify-content-center align-items-center justify-content-md-center align-items-md-center" onsubmit="createNewAccount()" action="javascript:;"><small>Surname</small><input class="form-control align-self-center" type="text" id="newSurname" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;margin-left: 7px;" name="accountSurname" placeholder="Enter surname..." maxlength="30" required="" minlength="1"><small>Name</small><input class="form-control align-self-center selectedName" type="text" id="newName" style="padding: 6px 3px;margin: 7px;max-width: 100%;width: 100%;border-radius: 10px;margin-left: 7px;" name="accountName" placeholder="Enter name..." maxlength="30" required="" minlength="1">
+                        <div class="hstack d-flex d-md-flex justify-content-center align-items-center justify-content-md-center align-items-md-center"><button class="btn btn-primary" id="create" type="submit" style="background: var(--bs-primary);margin: 7px;color: #ffffff;font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);margin-right: 7px;" value="save">Create</button></div>
+                    </form>
+                </div><button class="btn btn-primary" id="copy" type="button" style="background: var(--bs-primary);margin: 7px;color: #ffffff;font-weight: bold;box-shadow: 0px 0px;border-radius: 10px;border-style: solid;border-color: var(--bs-secondary);margin-right: 7px;" value="save" onclick="activateCopy()">Copy Ids</button>
+            </div>
+            <div class="col d-flex align-self-start justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center" style="margin: 0px !important;padding: 5px;">
+                <div class="vstack shadow-none float-none justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center pippo" style="background: var(--bs-secondary);border-radius: 10px;width: 98%;--bs-primary: #3046b7;--bs-primary-rgb: 48,70,183;--bs-secondary: #1e337e;--bs-secondary-rgb: 30,51,126;--bs-success: #3196ad;--bs-success-rgb: 49,150,173;--bs-info: #ffd600;--bs-info-rgb: 255,214,0;--bs-warning: #ffb800;--bs-warning-rgb: 255,184,0;--bs-danger: #f59854;--bs-danger-rgb: 245,152,84;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;--bs-dark: #0d2344;--bs-dark-rgb: 13,35,68;color: rgb(255,255,255);">
+                    <p id="tableTitle" style="margin-top: 16px;font-weight: bold;">Accounts</p>
+                    <div class="table-responsive text-white" style="--bs-body-color: #ffffff;color: rgb(255,255,255);margin: 0px;">
+                        <table class="table js-sort-table" id="transactionTable" style="color: #fff !important;">
+                            <thead style="margin: 10px;">
+                                <tr>
+                                    <th>Account Id</th>
+                                    <th>Surname</th>
+                                    <th>Name</th>
+                                    <th class="js-sort-money">Balance</th>
+                                </tr>
+                            </thead>
+                            <tbody id="infoAccounts"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/cpbank_js.js"></script>
+    <script src="assets/js/sort-table.js"></script>
+</body>
+
+</html>
