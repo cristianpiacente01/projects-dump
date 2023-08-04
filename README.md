@@ -1,15 +1,15 @@
-# Bachelor's Degree projects and thesis
+# Bachelor's degree projects and thesis
 
-Questa repository attualmente contiene i progetti svolti per i corsi della Laurea Triennale in Informatica (presso UniMiB) e il codice LaTeX prodotto per la tesi e le slide.
+Currently, this repository contains all the projects created for the courses I attended during the Bachelor's degree in Computer Science (at University of Milan - Bicocca) and also the LaTeX source code of the thesis and the slides.
 
-Nello specifico, i corsi con un progetto sono:
+In particular, the courses which included the development of a project are the following:
 
- - **Analisi e Progettazione del Software**
-	 - Gruppo da 4 (svolto con Chiara Pagliaroli, Alex Calabrese e Matteo Lombardo)
- -  **Business Intelligence per i Servizi Finanziari**
- - **Linguaggi di Programmazione**
-	 - Gruppo da 3 (svolto con Simone Tombolini e Matteo Cavaleri)
- - **Probabilità e Statistica**
- - **Programmazione C++**
- - **Sistemi Distribuiti**
-	 - Svolto in coppia (con Chiara Pagliaroli)
+ - **Software Analysis and Design**
+	 - Team of 4 (with Chiara Pagliaroli, Alex Calabrese and Matteo Lombardo)
+ - **Business Intelligence for Financial Services**
+ - **Programming Languages**
+	 - Team of 3 (with Simone Tombolini and Matteo Cavaleri)
+ - **Probability and Statistics**
+ - **C++ Programming**
+ - **Distributed Systems**
+	 - With Chiara Pagliaroli
