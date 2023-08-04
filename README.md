@@ -4,7 +4,7 @@ Currently, this repository contains all the projects created for the courses I a
 
 In particular, the courses which included the development of a project are the following:
 
- - **Software Analysis and Design**
+ - **Software Specification and Design**
 	 - Team of 4 (with Chiara Pagliaroli, Alex Calabrese and Matteo Lombardo)
  - **Business Intelligence for Financial Services**
  - **Programming Languages**
