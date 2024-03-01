@@ -1,0 +1,122 @@
+# Define the Docker image to use for the pipeline, in this case Python slim.
+image: python:slim
+ 
+
+# Define environment variables used throughout the pipeline.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"     # Pip cache directory.
+
+  # (plus MYSQL_USER and MYSQL_PASSWORD, which are project-level variables,
+  # and also TWINE_TOKEN that is a valid PyPI token).
+ 
+
+# Specify caching settings for the pipeline.
+cache:
+  paths:
+    - venv/                           # Cache Python virtual environment.
+    - .cache/pip                      # Cache Pip cache.
+
+
+# Define the stages of the CI/CD pipeline.
+stages:
+  - build                             # Build the application.
+  - verify                            # Verify code quality.
+  - unit_test                         # Run unit tests.
+  - integration_test                  # Run integration tests.
+  - package                           # Package the application.
+  - release                           # Release the application.
+  - docs                              # Generate documentation.
+
+ 
+# Set up actions to be performed before every pipeline job.
+before_script:
+  # Create and activate a Python virtual environment.
+  - python -m venv venv
+  - source venv/bin/activate
+
+
+# Define the 'build' stage of the pipeline.
+build:
+  stage: build
+  script:
+    # Building the application
+    - pip install -r urluckynum/requirements.txt   # Install project dependencies.
+
+
+# Define the first 'verify' job of the pipeline.
+verify_quality:
+  stage: verify
+  script:
+    # Verifying code quality
+    - prospector                        # Run code quality checks.
+
+
+# Define the second 'verify' job of the pipeline.
+verify_security:
+  stage: verify
+  script:
+    # Verifying security
+    - bandit -r urluckynum/             # Perform security analysis on the source code.
+
+
+# Define the 'unit_test' stage of the pipeline.
+unit_test:
+  stage: unit_test
+  script:
+    # Unit testing
+    - pytest -k "unit"                  # Run unit tests (labeled with the "unit" marker) using pytest.
+
+
+# Define the 'integration_test' stage of the pipeline.
+integration_test:
+  stage: integration_test
+  services:
+    - mysql
+  variables:
+    MYSQL_ROOT_PASSWORD: $MYSQL_PASSWORD   # This variable is for the MySQL root password.
+    MYSQL_DATABASE: sys                    # This variable is for the MySQL database name.
+  script:
+    # Integration testing
+    # Run integration tests (labeled with the "integration" marker) using pytest.
+    # We can customize the MySQL server host and port but the default ones, based on the mysql service, are mysql and 3306.
+    - pytest -k "integration" --gitlab-user=$GITLAB_USER_LOGIN --db-name=$MYSQL_DATABASE --db-host=mysql --db-port=3306 --db-user=$MYSQL_USER --db-password=$MYSQL_PASSWORD
+
+    # We pass the --gitlab-user, --db-name, --db-host, --db-port, --db-user, and --db-password arguments to pytest 
+    # so that the tests can see the GitLab user and MySQL database credentials.
+
+
+# Define the 'package' stage of the pipeline.
+package:
+  stage: package
+  script:
+    # Packaging the application
+    - python setup.py sdist bdist_wheel     # Package the application with setuptools.
+  artifacts:
+    paths:
+      - dist/*.whl                          # Built Distribution (bdist_wheel).
+      - dist/*.tar.gz                       # Source Distribution (sdist).
+
+
+# Define the 'release' stage of the pipeline.
+release:
+  stage: release
+  script:
+    # Publishing the application on PyPI
+    - twine upload --username __token__ --password $TWINE_TOKEN dist/*  # Upload on PyPI.
+  only:
+    # The release can only get executed on the main branch.
+    - main
+
+
+# Define the 'docs' stage of the pipeline.
+pages:
+  stage: docs
+  script:
+    # Generating a static website
+    - pdoc -o public urluckynum/app     # Generate a static website in the public folder.
+  artifacts:
+    paths:
+      - public/                         # GitLab Pages will use the public folder.
+  only:
+    # The docs can only get published on the main branch.
+    - main
