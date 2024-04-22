@@ -1,0 +1,6 @@
+[submodule "personal/ai-challenges"]
+	path = personal/ai-challenges
+	url = https://github.com/cristianpiacente01/xtream-ai-assignment-engineer
+[submodule "personal/RSADClassesParser"]
+	path = personal/RSADClassesParser
+	url = https://github.com/cristianpiacente01/RSADClassesParser
