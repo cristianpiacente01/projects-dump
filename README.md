@@ -21,5 +21,5 @@ The courses which included the development of a project are the following:
 
 The included personal projects are the following:
 
- - [**AI Challenges**](personal/ai-challenges/)
- - [**RSAD Parser**](personal/RSADClassesParser/)
+ - [**AI Challenges**](https://github.com/cristianpiacente01/xtream-ai-assignment-engineer/tree/e62753981a53664084c9bbac535db8395cf726fe)
+ - [**RSAD Parser**](https://github.com/cristianpiacente01/RSADClassesParser/tree/5672ccf29109e008ef974d4e179e570d2e66cdd6)
