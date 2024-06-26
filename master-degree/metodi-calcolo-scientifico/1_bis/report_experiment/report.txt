@@ -1,0 +1,381 @@
+               RESOCONTO DELLE ESECUZIONI
+******************************************************
+                    spa1.mtx
+******************************************************
+******************************************************
+                 tolleranza:0.0001
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 115
+Errore relativo: 0.0017708118132163107
+tempo di esecuzione: 0.051 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 9
+Errore relativo: 0.01819346991107023
+tempo di esecuzione: 1.382 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 143
+Errore relativo: 0.034612824950369644
+tempo di esecuzione: 0.15 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 49
+Errore relativo: 0.020800035393044362
+tempo di esecuzione: 0.057 (s)
+
+******************************************************
+                 tolleranza:1e-06
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 181
+Errore relativo: 1.797924734135133e-05
+tempo di esecuzione: 0.063 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 17
+Errore relativo: 0.0001299689162552027
+tempo di esecuzione: 2.482 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 3577
+Errore relativo: 0.0009680780107418594
+tempo di esecuzione: 4.168 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 134
+Errore relativo: 2.5529093556190602e-05
+tempo di esecuzione: 0.259 (s)
+
+******************************************************
+                 tolleranza:1e-08
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 247
+Errore relativo: 1.824978826804907e-07
+tempo di esecuzione: 0.166 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 24
+Errore relativo: 1.7097328155016426e-06
+tempo di esecuzione: 3.665 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 8233
+Errore relativo: 9.81636688299858e-06
+tempo di esecuzione: 8.312 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 177
+Errore relativo: 1.319840519707949e-07
+tempo di esecuzione: 0.168 (s)
+
+******************************************************
+                 tolleranza:1e-10
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 313
+Errore relativo: 1.8524371366782517e-09
+tempo di esecuzione: 0.141 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 31
+Errore relativo: 2.2480878778515217e-08
+tempo di esecuzione: 4.379 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 12919
+Errore relativo: 9.820388449511405e-08
+tempo di esecuzione: 11.943 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 200
+Errore relativo: 1.204618263824277e-09
+tempo di esecuzione: 0.193 (s)
+
+******************************************************
+                    spa2.mtx
+******************************************************
+******************************************************
+                 tolleranza:0.0001
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 36
+Errore relativo: 0.0017667164062951787
+tempo di esecuzione: 0.133 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 5
+Errore relativo: 0.0025987945418217548
+tempo di esecuzione: 20.29 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 161
+Errore relativo: 0.018141262472769173
+tempo di esecuzione: 1.337 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 42
+Errore relativo: 0.009822497323405508
+tempo di esecuzione: 0.361 (s)
+
+******************************************************
+                 tolleranza:1e-06
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 57
+Errore relativo: 1.6667519292204132e-05
+tempo di esecuzione: 0.282 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 8
+Errore relativo: 5.141640652906039e-05
+tempo di esecuzione: 32.308 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 1949
+Errore relativo: 0.0006694284158053819
+tempo di esecuzione: 18.786 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 122
+Errore relativo: 0.00011979846942653868
+tempo di esecuzione: 1.488 (s)
+
+******************************************************
+                 tolleranza:1e-08
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 78
+Errore relativo: 1.572869932678427e-07
+tempo di esecuzione: 0.307 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 12
+Errore relativo: 2.7943220304959326e-07
+tempo di esecuzione: 49.125 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 5087
+Errore relativo: 6.865240653821337e-06
+tempo di esecuzione: 52.149 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 196
+Errore relativo: 5.586660596275471e-07
+tempo di esecuzione: 1.635 (s)
+
+******************************************************
+                 tolleranza:1e-10
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 99
+Errore relativo: 1.4842717026807931e-09
+tempo di esecuzione: 0.297 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 15
+Errore relativo: 5.570740791690507e-09
+tempo di esecuzione: 58.892 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 8285
+Errore relativo: 6.937814831497985e-08
+tempo di esecuzione: 88.772 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 240
+Errore relativo: 5.3242303757412056e-09
+tempo di esecuzione: 2.872 (s)
+
+******************************************************
+                    vem1.mtx
+******************************************************
+******************************************************
+                 tolleranza:0.0001
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 1314
+Errore relativo: 0.0035503020437906226
+tempo di esecuzione: 0.215 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 659
+Errore relativo: 0.003516704346663496
+tempo di esecuzione: 3.181 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 890
+Errore relativo: 0.0027103595777984535
+tempo di esecuzione: 0.346 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 38
+Errore relativo: 4.0827937374423823e-05
+tempo di esecuzione: 0.016 (s)
+
+******************************************************
+                 tolleranza:1e-06
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 2433
+Errore relativo: 3.540172346953882e-05
+tempo di esecuzione: 0.402 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 1218
+Errore relativo: 3.5267950764847704e-05
+tempo di esecuzione: 4.834 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 1612
+Errore relativo: 2.713397344710513e-05
+tempo di esecuzione: 0.459 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 45
+Errore relativo: 3.7323397023038456e-07
+tempo di esecuzione: 0.016 (s)
+
+******************************************************
+                 tolleranza:1e-08
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 3552
+Errore relativo: 3.53976694659024e-07
+tempo di esecuzione: 0.466 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 1778
+Errore relativo: 3.5174579739478486e-07
+tempo di esecuzione: 4.864 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 2336
+Errore relativo: 2.6953379930276475e-07
+tempo di esecuzione: 0.616 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 53
+Errore relativo: 2.8318734444310648e-09
+tempo di esecuzione: 0.016 (s)
+
+******************************************************
+                 tolleranza:1e-10
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 4671
+Errore relativo: 3.5394587549435938e-09
+tempo di esecuzione: 0.56 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 2338
+Errore relativo: 3.5082423267510406e-09
+tempo di esecuzione: 6.646 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 3058
+Errore relativo: 2.713166880031993e-09
+tempo di esecuzione: 0.852 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 59
+Errore relativo: 2.191750599624398e-11
+tempo di esecuzione: 0.018 (s)
+
+******************************************************
+                    vem2.mtx
+******************************************************
+******************************************************
+                 tolleranza:0.0001
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 1927
+Errore relativo: 0.004988120299885087
+tempo di esecuzione: 0.285 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 965
+Errore relativo: 0.004970707700261808
+tempo di esecuzione: 4.604 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 1308
+Errore relativo: 0.0038234939449269052
+tempo di esecuzione: 0.416 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 47
+Errore relativo: 5.7290189553797573e-05
+tempo di esecuzione: 0.016 (s)
+
+******************************************************
+                 tolleranza:1e-06
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 3676
+Errore relativo: 4.967230366467791e-05
+tempo di esecuzione: 0.553 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 1840
+Errore relativo: 4.941955175876987e-05
+tempo di esecuzione: 8.577 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 2438
+Errore relativo: 3.791533139667894e-05
+tempo di esecuzione: 1.044 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 56
+Errore relativo: 4.7429962834266885e-07
+tempo di esecuzione: 0.024 (s)
+
+******************************************************
+                 tolleranza:1e-08
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 5425
+Errore relativo: 4.965609860645763e-07
+tempo di esecuzione: 1.036 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 2714
+Errore relativo: 4.958371641672979e-07
+tempo di esecuzione: 13.206 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 3566
+Errore relativo: 3.809851776373111e-07
+tempo di esecuzione: 1.129 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 66
+Errore relativo: 4.299983510333221e-09
+tempo di esecuzione: 0.024 (s)
+
+******************************************************
+                 tolleranza:1e-10
+******************************************************
+Algoritmo utilizzato: Jacobi
+Numero di iterazioni: 7174
+Errore relativo: 4.964185239985712e-09
+tempo di esecuzione: 0.984 (s)
+
+Algoritmo utilizzato: Gauss-Seidel
+Numero di iterazioni: 3589
+Errore relativo: 4.94891283351377e-09
+tempo di esecuzione: 15.879 (s)
+
+Algoritmo utilizzato: Gradiente
+Numero di iterazioni: 4696
+Errore relativo: 3.79876794668187e-09
+tempo di esecuzione: 1.484 (s)
+
+Algoritmo utilizzato: Gradiente coniugato
+Numero di iterazioni: 74
+Errore relativo: 2.2476273012012288e-11
+tempo di esecuzione: 0.016 (s)
+
