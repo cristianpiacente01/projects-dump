@@ -1,0 +1,2824 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d4" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="lon" attr.type="double"/>
+<key id="d1" for="node" attr.name="lat" attr.type="double"/>
+<key id="d0" for="node" attr.name="name" attr.type="string"/>
+<graph edgedefault="undirected"><node id="IDFM:24683">
+  <data key="d0">Buttes Chaumont</data>
+  <data key="d1">48.87849908839857</data>
+  <data key="d2">2.381569842088008</data>
+</node>
+<node id="IDFM:24682">
+  <data key="d0">Place des Fêtes</data>
+  <data key="d1">48.87693859004261</data>
+  <data key="d2">2.392959616507311</data>
+</node>
+<node id="IDFM:24681">
+  <data key="d0">Louis Blanc</data>
+  <data key="d1">48.88120621182599</data>
+  <data key="d2">2.364424862493678</data>
+</node>
+<node id="IDFM:24680">
+  <data key="d0">Jaurès</data>
+  <data key="d1">48.88234423020823</data>
+  <data key="d2">2.370451734004561</data>
+</node>
+<node id="IDFM:24686">
+  <data key="d0">Botzaris</data>
+  <data key="d1">48.87943610160117</data>
+  <data key="d2">2.388908111185046</data>
+</node>
+<node id="IDFM:24687">
+  <data key="d0">Danube</data>
+  <data key="d1">48.88194921492064</data>
+  <data key="d2">2.393228471227492</data>
+</node>
+<node id="IDFM:24684">
+  <data key="d0">Pré-Saint-Gervais</data>
+  <data key="d1">48.8801595806643</data>
+  <data key="d2">2.398580770693528</data>
+</node>
+<node id="IDFM:24685">
+  <data key="d0">Bolivar</data>
+  <data key="d1">48.88078966297506</data>
+  <data key="d2">2.374124871187542</data>
+</node>
+<node id="IDFM:24679">
+  <data key="d0">Front Populaire</data>
+  <data key="d1">48.90676304816429</data>
+  <data key="d2">2.365777177193171</data>
+</node>
+<node id="IDFM:22401">
+  <data key="d0">Villejuif Paul Vaillant-Couturier</data>
+  <data key="d1">48.79631793416014</data>
+  <data key="d2">2.3683316015776423</data>
+</node>
+<node id="IDFM:22400">
+  <data key="d0">Villejuif - Louis Aragon</data>
+  <data key="d1">48.78753717099888</data>
+  <data key="d2">2.36783901176962</data>
+</node>
+<node id="IDFM:22442">
+  <data key="d0">Rue des Boulets</data>
+  <data key="d1">48.85221407333194</data>
+  <data key="d2">2.3891047050322425</data>
+</node>
+<node id="IDFM:22378">
+  <data key="d0">Pont Marie (Cité des Arts)</data>
+  <data key="d1">48.85341474936241</data>
+  <data key="d2">2.357349968447059</data>
+</node>
+<node id="IDFM:22379">
+  <data key="d0">Pont Neuf</data>
+  <data key="d1">48.858456031111984</data>
+  <data key="d2">2.3417089232034765</data>
+</node>
+<node id="IDFM:22374">
+  <data key="d0">Porte de la Villette</data>
+  <data key="d1">48.89780269235572</data>
+  <data key="d2">2.385869033143345</data>
+</node>
+<node id="IDFM:22375">
+  <data key="d0">Pyramides</data>
+  <data key="d1">48.86588028991413</data>
+  <data key="d2">2.334417535966556</data>
+</node>
+<node id="IDFM:22376">
+  <data key="d0">Palais Royal - Musée du Louvre</data>
+  <data key="d1">48.86268399776967</data>
+  <data key="d2">2.337007354765684</data>
+</node>
+<node id="IDFM:22377">
+  <data key="d0">Poissonnière</data>
+  <data key="d1">48.87716484925024</data>
+  <data key="d2">2.3487397513900734</data>
+</node>
+<node id="IDFM:22371">
+  <data key="d0">Riquet</data>
+  <data key="d1">48.88810829453359</data>
+  <data key="d2">2.373764152701256</data>
+</node>
+<node id="IDFM:22370">
+  <data key="d0">Tolbiac</data>
+  <data key="d1">48.82613686175372</data>
+  <data key="d2">2.357318439213192</data>
+</node>
+<node id="IDFM:22373">
+  <data key="d0">Porte de Choisy</data>
+  <data key="d1">48.8201320892324</data>
+  <data key="d2">2.3646245490007405</data>
+</node>
+<node id="IDFM:22372">
+  <data key="d0">Porte d'Ivry</data>
+  <data key="d1">48.821489035562834</data>
+  <data key="d2">2.3695112543194927</data>
+</node>
+<node id="IDFM:22389">
+  <data key="d0">Corentin Cariou</data>
+  <data key="d1">48.89467266005628</data>
+  <data key="d2">2.382291557164633</data>
+</node>
+<node id="IDFM:22387">
+  <data key="d0">Gare de l'Est</data>
+  <data key="d1">48.87636105433344</data>
+  <data key="d2">2.358103056697664</data>
+</node>
+<node id="IDFM:22388">
+  <data key="d0">Chaussée d'Antin - La Fayette</data>
+  <data key="d1">48.87313420577469</data>
+  <data key="d2">2.333738594408701</data>
+</node>
+<node id="IDFM:22385">
+  <data key="d0">Maison Blanche</data>
+  <data key="d1">48.82216816831483</data>
+  <data key="d2">2.3585387043161337</data>
+</node>
+<node id="IDFM:22386">
+  <data key="d0">Jussieu</data>
+  <data key="d1">48.84596333903808</data>
+  <data key="d2">2.354798309820857</data>
+</node>
+<node id="IDFM:22383">
+  <data key="d0">Les Gobelins</data>
+  <data key="d1">48.83584162234448</data>
+  <data key="d2">2.352416801898276</data>
+</node>
+<node id="IDFM:22382">
+  <data key="d0">Le Peletier</data>
+  <data key="d1">48.874959406040965</data>
+  <data key="d2">2.3401505597063736</data>
+</node>
+<node id="IDFM:22381">
+  <data key="d0">Opéra</data>
+  <data key="d1">48.87030303390994</data>
+  <data key="d2">2.3324387808144875</data>
+</node>
+<node id="IDFM:22380">
+  <data key="d0">Porte d'Italie</data>
+  <data key="d1">48.81903428608761</data>
+  <data key="d2">2.359462523882543</data>
+</node>
+<node id="IDFM:22396">
+  <data key="d0">Mairie d'Ivry</data>
+  <data key="d1">48.811210093393306</data>
+  <data key="d2">2.383498053635828</data>
+</node>
+<node id="IDFM:22397">
+  <data key="d0">Pierre et Marie Curie</data>
+  <data key="d1">48.81583650099709</data>
+  <data key="d2">2.377246886036494</data>
+</node>
+<node id="IDFM:22398">
+  <data key="d0">Le Kremlin-Bicêtre</data>
+  <data key="d1">48.81025257278989</data>
+  <data key="d2">2.362130413802561</data>
+</node>
+<node id="IDFM:22399">
+  <data key="d0">Villejuif Léo Lagrange</data>
+  <data key="d1">48.80435318028833</data>
+  <data key="d2">2.363931747647736</data>
+</node>
+<node id="IDFM:22391">
+  <data key="d0">Censier - Daubenton</data>
+  <data key="d1">48.84022624851393</data>
+  <data key="d2">2.351626572605499</data>
+</node>
+<node id="IDFM:22390">
+  <data key="d0">Cadet</data>
+  <data key="d1">48.87596328507557</data>
+  <data key="d2">2.344446309702274</data>
+</node>
+<node id="IDFM:22393">
+  <data key="d0">Fort d'Aubervilliers</data>
+  <data key="d1">48.91475665506255</data>
+  <data key="d2">2.404075377271855</data>
+</node>
+<node id="IDFM:22392">
+  <data key="d0">Crimée</data>
+  <data key="d1">48.8908857589288</data>
+  <data key="d2">2.37693573698238</data>
+</node>
+<node id="IDFM:22395">
+  <data key="d0">La Courneuve - 8 Mai 1945</data>
+  <data key="d1">48.92024579662936</data>
+  <data key="d2">2.4102214036405085</data>
+</node>
+<node id="IDFM:22394">
+  <data key="d0">Aubervilliers-Pantin Quatre Chemins</data>
+  <data key="d1">48.90379699038963</data>
+  <data key="d2">2.392114382497849</data>
+</node>
+<node id="IDFM:22368">
+  <data key="d0">Stalingrad</data>
+  <data key="d1">48.88431508830977</data>
+  <data key="d2">2.368996070723285</data>
+</node>
+<node id="IDFM:22367">
+  <data key="d0">Château Landon</data>
+  <data key="d1">48.87844145573239</data>
+  <data key="d2">2.3620179355106075</data>
+</node>
+<node id="IDFM:22369">
+  <data key="d0">Sully - Morland</data>
+  <data key="d1">48.85120791254347</data>
+  <data key="d2">2.3617517381263218</data>
+</node>
+<node id="IDFM:22364">
+  <data key="d0">Châtelet</data>
+  <data key="d1">48.85695346078533</data>
+  <data key="d2">2.3481609912345776</data>
+</node>
+<node id="IDFM:22366">
+  <data key="d0">Place Monge</data>
+  <data key="d1">48.842666385642886</data>
+  <data key="d2">2.3521548685787708</data>
+</node>
+<node id="IDFM:22365">
+  <data key="d0">Place d'Italie</data>
+  <data key="d1">48.83154024475565</data>
+  <data key="d2">2.355303769754901</data>
+</node>
+<node id="IDFM:22206">
+  <data key="d0">Michel Bizot</data>
+  <data key="d1">48.837000553950986</data>
+  <data key="d2">2.40228042706469</data>
+</node>
+<node id="IDFM:22207">
+  <data key="d0">Porte Dorée</data>
+  <data key="d1">48.8350662204656</data>
+  <data key="d2">2.405749381400099</data>
+</node>
+<node id="IDFM:22208">
+  <data key="d0">Porte de Charenton</data>
+  <data key="d1">48.83344922287947</data>
+  <data key="d2">2.402511872850073</data>
+</node>
+<node id="IDFM:22209">
+  <data key="d0">Liberté</data>
+  <data key="d1">48.826148180607525</data>
+  <data key="d2">2.4064912314699263</data>
+</node>
+<node id="IDFM:22202">
+  <data key="d0">Chemin Vert</data>
+  <data key="d1">48.85710602289208</data>
+  <data key="d2">2.368221612765033</data>
+</node>
+<node id="IDFM:22203">
+  <data key="d0">Ledru-Rollin</data>
+  <data key="d1">48.85133776679838</data>
+  <data key="d2">2.376141223318593</data>
+</node>
+<node id="IDFM:22204">
+  <data key="d0">Faidherbe - Chaligny</data>
+  <data key="d1">48.85020070550927</data>
+  <data key="d2">2.384072471688875</data>
+</node>
+<node id="IDFM:22205">
+  <data key="d0">Montgallet</data>
+  <data key="d1">48.8440641552825</data>
+  <data key="d2">2.39052195642492</data>
+</node>
+<node id="IDFM:22200">
+  <data key="d0">Filles du Calvaire</data>
+  <data key="d1">48.86308830188695</data>
+  <data key="d2">2.366826859795412</data>
+</node>
+<node id="IDFM:22201">
+  <data key="d0">Saint-Sébastien - Froissart</data>
+  <data key="d1">48.86098670797991</data>
+  <data key="d2">2.367370357789606</data>
+</node>
+<node id="IDFM:22221">
+  <data key="d0">Porte de Vanves</data>
+  <data key="d1">48.82766229777493</data>
+  <data key="d2">2.305223578739507</data>
+</node>
+<node id="IDFM:22220">
+  <data key="d0">Porte de Saint-Ouen</data>
+  <data key="d1">48.89749783732745</data>
+  <data key="d2">2.3290483407446505</data>
+</node>
+<node id="IDFM:22223">
+  <data key="d0">Plaisance</data>
+  <data key="d1">48.83174121370108</data>
+  <data key="d2">2.313833364032832</data>
+</node>
+<node id="IDFM:22222">
+  <data key="d0">Pernety</data>
+  <data key="d1">48.834078679774976</data>
+  <data key="d2">2.318393706614701</data>
+</node>
+<node id="IDFM:22225">
+  <data key="d0">Liège</data>
+  <data key="d1">48.87953493737576</data>
+  <data key="d2">2.3268526712397555</data>
+</node>
+<node id="IDFM:22224">
+  <data key="d0">Miromesnil</data>
+  <data key="d1">48.87344791579522</data>
+  <data key="d2">2.3160106931210245</data>
+</node>
+<node id="IDFM:22227">
+  <data key="d0">La Fourche</data>
+  <data key="d1">48.88742451051807</data>
+  <data key="d2">2.325686960766736</data>
+</node>
+<node id="IDFM:22226">
+  <data key="d0">Varenne</data>
+  <data key="d1">48.85662498274656</data>
+  <data key="d2">2.315113930509657</data>
+</node>
+<node id="IDFM:22229">
+  <data key="d0">Duroc</data>
+  <data key="d1">48.847009893611975</data>
+  <data key="d2">2.3165212194565217</data>
+</node>
+<node id="IDFM:22228">
+  <data key="d0">Guy Môquet</data>
+  <data key="d1">48.8930014419616</data>
+  <data key="d2">2.327483258626126</data>
+</node>
+<node id="IDFM:22212">
+  <data key="d0">Créteil - Université</data>
+  <data key="d1">48.789915686006935</data>
+  <data key="d2">2.450529196348293</data>
+</node>
+<node id="IDFM:22211">
+  <data key="d0">Créteil - L'Échat</data>
+  <data key="d1">48.79661083011156</data>
+  <data key="d2">2.4493695956133714</data>
+</node>
+<node id="IDFM:22210">
+  <data key="d0">Charenton - Écoles</data>
+  <data key="d1">48.82125590204953</data>
+  <data key="d2">2.413847237068526</data>
+</node>
+<node id="IDFM:22216">
+  <data key="d0">Maisons-Alfort - Les Juilliottes</data>
+  <data key="d1">48.80310585036659</data>
+  <data key="d2">2.4457883063759605</data>
+</node>
+<node id="IDFM:22215">
+  <data key="d0">Maisons-Alfort - Stade</data>
+  <data key="d1">48.80891847848263</data>
+  <data key="d2">2.434819533389365</data>
+</node>
+<node id="IDFM:22214">
+  <data key="d0">Ecole Vétérinaire de Maisons-Alfort</data>
+  <data key="d1">48.814758684006726</data>
+  <data key="d2">2.422322751702586</data>
+</node>
+<node id="IDFM:22213">
+  <data key="d0">Créteil - Préfecture</data>
+  <data key="d1">48.77975652677895</data>
+  <data key="d2">2.459305169291261</data>
+</node>
+<node id="IDFM:22219">
+  <data key="d0">Porte de Clichy</data>
+  <data key="d1">48.89464071673921</data>
+  <data key="d2">2.313659095711832</data>
+</node>
+<node id="IDFM:22218">
+  <data key="d0">Saint-Lazare</data>
+  <data key="d1">48.87538131600797</data>
+  <data key="d2">2.325488390672613</data>
+</node>
+<node id="IDFM:22217">
+  <data key="d0">Saint-François-Xavier</data>
+  <data key="d1">48.8512787565696</data>
+  <data key="d2">2.314407403528732</data>
+</node>
+<node id="IDFM:22243">
+  <data key="d0">Mairie de Saint-Ouen</data>
+  <data key="d1">48.91202122382531</data>
+  <data key="d2">2.3337865427286206</data>
+</node>
+<node id="IDFM:22242">
+  <data key="d0">Saint-Denis - Université</data>
+  <data key="d1">48.945911458883856</data>
+  <data key="d2">2.364494290510317</data>
+</node>
+<node id="IDFM:22244">
+  <data key="d0">Garibaldi</data>
+  <data key="d1">48.906372391923206</data>
+  <data key="d2">2.331962553647662</data>
+</node>
+<node id="IDFM:22240">
+  <data key="d0">Basilique de Saint-Denis</data>
+  <data key="d1">48.93678306532419</data>
+  <data key="d2">2.3592958408126816</data>
+</node>
+<node id="IDFM:22241">
+  <data key="d0">Saint-Denis - Porte de Paris</data>
+  <data key="d1">48.92992275044576</data>
+  <data key="d2">2.3561729251016</data>
+</node>
+<node id="IDFM:22238">
+  <data key="d0">Mairie de Clichy</data>
+  <data key="d1">48.90349897462669</data>
+  <data key="d2">2.3058484063578857</data>
+</node>
+<node id="IDFM:22237">
+  <data key="d0">Châtillon-Montrouge</data>
+  <data key="d1">48.81075140670139</data>
+  <data key="d2">2.301717705004608</data>
+</node>
+<node id="IDFM:22236">
+  <data key="d0">Malakoff - Rue Etienne Dolet</data>
+  <data key="d1">48.815265523780766</data>
+  <data key="d2">2.296972463702674</data>
+</node>
+<node id="IDFM:22235">
+  <data key="d0">Malakoff - Plateau de Vanves</data>
+  <data key="d1">48.82220756804045</data>
+  <data key="d2">2.298295381702497</data>
+</node>
+<node id="IDFM:22234">
+  <data key="d0">Gabriel Péri</data>
+  <data key="d1">48.91639290208823</data>
+  <data key="d2">2.2946921563609406</data>
+</node>
+<node id="IDFM:22233">
+  <data key="d0">Asnières - Gennevilliers Les Courtilles</data>
+  <data key="d1">48.93060364140038</data>
+  <data key="d2">2.284372100658843</data>
+</node>
+<node id="IDFM:22232">
+  <data key="d0">Les Agnettes</data>
+  <data key="d1">48.92308777796361</data>
+  <data key="d2">2.286263202479002</data>
+</node>
+<node id="IDFM:22231">
+  <data key="d0">Brochant</data>
+  <data key="d1">48.89062201554889</data>
+  <data key="d2">2.3201902468999456</data>
+</node>
+<node id="IDFM:22239">
+  <data key="d0">Carrefour Pleyel</data>
+  <data key="d1">48.91980854982986</data>
+  <data key="d2">2.343443653352174</data>
+</node>
+<node id="IDFM:22230">
+  <data key="d0">Gaîté</data>
+  <data key="d1">48.83854469308166</data>
+  <data key="d2">2.322463569405974</data>
+</node>
+<node id="IDFM:22131">
+  <data key="d0">Raspail</data>
+  <data key="d1">48.83915635952557</data>
+  <data key="d2">2.330466993719873</data>
+</node>
+<node id="IDFM:22130">
+  <data key="d0">Barbès - Rochechouart</data>
+  <data key="d1">48.88340206048623</data>
+  <data key="d2">2.349629927853002</data>
+</node>
+<node id="IDFM:22136">
+  <data key="d0">Saint-Germain-des-Prés</data>
+  <data key="d1">48.85357456382241</data>
+  <data key="d2">2.333947810798194</data>
+</node>
+<node id="IDFM:22137">
+  <data key="d0">Saint-Michel</data>
+  <data key="d1">48.85358493521485</data>
+  <data key="d2">2.343964657062377</data>
+</node>
+<node id="IDFM:22138">
+  <data key="d0">Saint-Placide</data>
+  <data key="d1">48.847041473609366</data>
+  <data key="d2">2.3268499626718526</data>
+</node>
+<node id="IDFM:22139">
+  <data key="d0">Saint-Sulpice</data>
+  <data key="d1">48.85120862756671</data>
+  <data key="d2">2.330611953081543</data>
+</node>
+<node id="IDFM:22132">
+  <data key="d0">Marcadet - Poissonniers</data>
+  <data key="d1">48.891280439844486</data>
+  <data key="d2">2.349681541722477</data>
+</node>
+<node id="IDFM:22133">
+  <data key="d0">Simplon</data>
+  <data key="d1">48.8938152613519</data>
+  <data key="d2">2.347794968187123</data>
+</node>
+<node id="IDFM:22134">
+  <data key="d0">Strasbourg - Saint-Denis</data>
+  <data key="d1">48.86962358263758</data>
+  <data key="d2">2.354491616563834</data>
+</node>
+<node id="IDFM:22135">
+  <data key="d0">Vavin</data>
+  <data key="d1">48.842242093452064</data>
+  <data key="d2">2.32902391746117</data>
+</node>
+<node id="IDFM:22142">
+  <data key="d0">Réaumur - Sébastopol</data>
+  <data key="d1">48.86604305354321</data>
+  <data key="d2">2.352613903045621</data>
+</node>
+<node id="IDFM:22141">
+  <data key="d0">Porte de Clignancourt</data>
+  <data key="d1">48.89755778141871</data>
+  <data key="d2">2.3447472731828847</data>
+</node>
+<node id="IDFM:22140">
+  <data key="d0">Porte d'Orléans</data>
+  <data key="d1">48.823416351140224</data>
+  <data key="d2">2.3254932653821045</data>
+</node>
+<node id="IDFM:22149">
+  <data key="d0">Gare du Nord</data>
+  <data key="d1">48.879510553130615</data>
+  <data key="d2">2.356768884572096</data>
+</node>
+<node id="IDFM:22147">
+  <data key="d0">Etienne Marcel</data>
+  <data key="d1">48.86370301202431</data>
+  <data key="d2">2.3489761968791085</data>
+</node>
+<node id="IDFM:22145">
+  <data key="d0">Odéon</data>
+  <data key="d1">48.85210334038093</data>
+  <data key="d2">2.339486020317896</data>
+</node>
+<node id="IDFM:22146">
+  <data key="d0">Les Halles</data>
+  <data key="d1">48.86252665962869</data>
+  <data key="d2">2.34600573656331</data>
+</node>
+<node id="IDFM:22143">
+  <data key="d0">Montparnasse Bienvenue</data>
+  <data key="d1">48.84385251452581</data>
+  <data key="d2">2.3243294607791096</data>
+</node>
+<node id="IDFM:22144">
+  <data key="d0">Mouton-Duvernet</data>
+  <data key="d1">48.831382009093616</data>
+  <data key="d2">2.32979034782274</data>
+</node>
+<node id="IDFM:22151">
+  <data key="d0">Denfert-Rochereau</data>
+  <data key="d1">48.83392232305997</data>
+  <data key="d2">2.332128160437612</data>
+</node>
+<node id="IDFM:22150">
+  <data key="d0">Cité</data>
+  <data key="d1">48.85493384910671</data>
+  <data key="d2">2.3472322349319112</data>
+</node>
+<node id="IDFM:22153">
+  <data key="d0">Château d'Eau</data>
+  <data key="d1">48.87244691759551</data>
+  <data key="d2">2.3560517414015862</data>
+</node>
+<node id="IDFM:22152">
+  <data key="d0">Château Rouge</data>
+  <data key="d1">48.88724193064896</data>
+  <data key="d2">2.34958196802566</data>
+</node>
+<node id="IDFM:22154">
+  <data key="d0">Alésia</data>
+  <data key="d1">48.82820106421924</data>
+  <data key="d2">2.3270932349484528</data>
+</node>
+<node id="IDFM:22160">
+  <data key="d0">Saint-Jacques</data>
+  <data key="d1">48.832916006219165</data>
+  <data key="d2">2.337154370925007</data>
+</node>
+<node id="IDFM:22164">
+  <data key="d0">Trocadéro</data>
+  <data key="d1">48.86346147371448</data>
+  <data key="d2">2.287625377853519</data>
+</node>
+<node id="IDFM:22163">
+  <data key="d0">Sèvres-Lecourbe</data>
+  <data key="d1">48.84558437021755</data>
+  <data key="d2">2.3094677673863235</data>
+</node>
+<node id="IDFM:22162">
+  <data key="d0">La Motte-Picquet - Grenelle</data>
+  <data key="d1">48.848697697821954</data>
+  <data key="d2">2.298906224573169</data>
+</node>
+<node id="IDFM:22161">
+  <data key="d0">Quai de la Gare</data>
+  <data key="d1">48.83700262953923</data>
+  <data key="d2">2.372825013717543</data>
+</node>
+<node id="IDFM:22167">
+  <data key="d0">Picpus</data>
+  <data key="d1">48.84501767720269</data>
+  <data key="d2">2.401248269453829</data>
+</node>
+<node id="IDFM:22165">
+  <data key="d0">Passy</data>
+  <data key="d1">48.85751508962033</data>
+  <data key="d2">2.285839418881462</data>
+</node>
+<node id="IDFM:22166">
+  <data key="d0">Pasteur</data>
+  <data key="d1">48.842482718285865</data>
+  <data key="d2">2.312792651441268</data>
+</node>
+<node id="IDFM:22169">
+  <data key="d0">Nationale</data>
+  <data key="d1">48.83318160406702</data>
+  <data key="d2">2.362857958087621</data>
+</node>
+<node id="IDFM:22172">
+  <data key="d0">Edgar Quinet</data>
+  <data key="d1">48.84098044632817</data>
+  <data key="d2">2.3253749636089105</data>
+</node>
+<node id="IDFM:22173">
+  <data key="d0">Glacière</data>
+  <data key="d1">48.83117023524584</data>
+  <data key="d2">2.3434974927179884</data>
+</node>
+<node id="IDFM:22174">
+  <data key="d0">Chevaleret</data>
+  <data key="d1">48.83496308210916</data>
+  <data key="d2">2.368081282972743</data>
+</node>
+<node id="IDFM:22175">
+  <data key="d0">Corvisart</data>
+  <data key="d1">48.82986001331238</data>
+  <data key="d2">2.350611225926166</data>
+</node>
+<node id="IDFM:22170">
+  <data key="d0">Kléber</data>
+  <data key="d1">48.87148941293503</data>
+  <data key="d2">2.293146137248626</data>
+</node>
+<node id="IDFM:22171">
+  <data key="d0">Dupleix</data>
+  <data key="d1">48.8504116258067</data>
+  <data key="d2">2.293663726731039</data>
+</node>
+<node id="IDFM:22177">
+  <data key="d0">Bel-Air</data>
+  <data key="d1">48.84142733223358</data>
+  <data key="d2">2.400867131995259</data>
+</node>
+<node id="IDFM:22176">
+  <data key="d0">Cambronne</data>
+  <data key="d1">48.84754311219352</data>
+  <data key="d2">2.302941728337612</data>
+</node>
+<node id="IDFM:22179">
+  <data key="d0">Bir-Hakeim</data>
+  <data key="d1">48.85388427726308</data>
+  <data key="d2">2.2892963570634604</data>
+</node>
+<node id="IDFM:22178">
+  <data key="d0">Bercy</data>
+  <data key="d1">48.840176028121896</data>
+  <data key="d2">2.379463070185257</data>
+</node>
+<node id="IDFM:22185">
+  <data key="d0">Invalides</data>
+  <data key="d1">48.86053445554123</data>
+  <data key="d2">2.3146399951225347</data>
+</node>
+<node id="IDFM:22186">
+  <data key="d0">Balard</data>
+  <data key="d1">48.83665079228612</data>
+  <data key="d2">2.278509358807</data>
+</node>
+<node id="IDFM:22184">
+  <data key="d0">Daumesnil</data>
+  <data key="d1">48.83967393140864</data>
+  <data key="d2">2.395573606140371</data>
+</node>
+<node id="IDFM:22182">
+  <data key="d0">Dugommier</data>
+  <data key="d1">48.83895109404536</data>
+  <data key="d2">2.3896007705991944</data>
+</node>
+<node id="IDFM:22180">
+  <data key="d0">Boissière</data>
+  <data key="d1">48.8668483434173</data>
+  <data key="d2">2.2900328376074373</data>
+</node>
+<node id="IDFM:22189">
+  <data key="d0">Félix Faure</data>
+  <data key="d1">48.84268433479664</data>
+  <data key="d2">2.2918472203679703</data>
+</node>
+<node id="IDFM:22188">
+  <data key="d0">Boucicaut</data>
+  <data key="d1">48.841024160993214</data>
+  <data key="d2">2.2879184311245595</data>
+</node>
+<node id="IDFM:22187">
+  <data key="d0">Lourmel</data>
+  <data key="d1">48.83866086365992</data>
+  <data key="d2">2.2822419598550767</data>
+</node>
+<node id="IDFM:22190">
+  <data key="d0">Commerce</data>
+  <data key="d1">48.84463784771031</data>
+  <data key="d2">2.293687475167137</data>
+</node>
+<node id="IDFM:22191">
+  <data key="d0">École Militaire</data>
+  <data key="d1">48.85491966058707</data>
+  <data key="d2">2.3063456838200764</data>
+</node>
+<node id="IDFM:22192">
+  <data key="d0">La Tour-Maubourg</data>
+  <data key="d1">48.85766922956403</data>
+  <data key="d2">2.310588789873988</data>
+</node>
+<node id="IDFM:22194">
+  <data key="d0">Madeleine</data>
+  <data key="d1">48.86956561611772</data>
+  <data key="d2">2.3260272117729994</data>
+</node>
+<node id="IDFM:22196">
+  <data key="d0">Richelieu - Drouot</data>
+  <data key="d1">48.87173920910264</data>
+  <data key="d2">2.3384190255427955</data>
+</node>
+<node id="IDFM:22197">
+  <data key="d0">Grands Boulevards</data>
+  <data key="d1">48.87146677844407</data>
+  <data key="d2">2.342839648636545</data>
+</node>
+<node id="IDFM:22199">
+  <data key="d0">République</data>
+  <data key="d1">48.86748513277203</data>
+  <data key="d2">2.3632563242479026</data>
+</node>
+<node id="IDFM:22198">
+  <data key="d0">Bonne Nouvelle</data>
+  <data key="d1">48.8706347683979</data>
+  <data key="d2">2.3485760027859746</data>
+</node>
+<node id="IDFM:22119">
+  <data key="d0">La Chapelle</data>
+  <data key="d1">48.884386410852784</data>
+  <data key="d2">2.3604041692740987</data>
+</node>
+<node id="IDFM:22116">
+  <data key="d0">Ménilmontant</data>
+  <data key="d1">48.866440166781686</data>
+  <data key="d2">2.38353966877949</data>
+</node>
+<node id="IDFM:22117">
+  <data key="d0">Monceau</data>
+  <data key="d1">48.88056877012684</data>
+  <data key="d2">2.309412967374703</data>
+</node>
+<node id="IDFM:22114">
+  <data key="d0">Pigalle</data>
+  <data key="d1">48.88226954222623</data>
+  <data key="d2">2.338257976509587</data>
+</node>
+<node id="IDFM:22115">
+  <data key="d0">Place de Clichy</data>
+  <data key="d1">48.88366908827266</data>
+  <data key="d2">2.32795832801022</data>
+</node>
+<node id="IDFM:22112">
+  <data key="d0">Père Lachaise</data>
+  <data key="d1">48.86248637862667</data>
+  <data key="d2">2.387689326065689</data>
+</node>
+<node id="IDFM:22113">
+  <data key="d0">Philippe Auguste</data>
+  <data key="d1">48.858175121260864</data>
+  <data key="d2">2.390547705552573</data>
+</node>
+<node id="IDFM:22110">
+  <data key="d0">Rome</data>
+  <data key="d1">48.882256139435015</data>
+  <data key="d2">2.3214039779193896</data>
+</node>
+<node id="IDFM:22111">
+  <data key="d0">Porte Dauphine</data>
+  <data key="d1">48.87139679524832</data>
+  <data key="d2">2.277632717545272</data>
+</node>
+<node id="IDFM:22120">
+  <data key="d0">Colonel Fabien</data>
+  <data key="d1">48.877695345805535</data>
+  <data key="d2">2.370576102819657</data>
+</node>
+<node id="IDFM:22125">
+  <data key="d0">Blanche</data>
+  <data key="d1">48.88376635447715</data>
+  <data key="d2">2.3324843754343627</data>
+</node>
+<node id="IDFM:22126">
+  <data key="d0">Couronnes</data>
+  <data key="d1">48.86932051914457</data>
+  <data key="d2">2.3805336747351005</data>
+</node>
+<node id="IDFM:22128">
+  <data key="d0">Belleville</data>
+  <data key="d1">48.87231407736167</data>
+  <data key="d2">2.3768306915222848</data>
+</node>
+<node id="IDFM:22121">
+  <data key="d0">Courcelles</data>
+  <data key="d1">48.87926525411311</data>
+  <data key="d2">2.303294362425212</data>
+</node>
+<node id="IDFM:22122">
+  <data key="d0">Alexandre Dumas</data>
+  <data key="d1">48.856199097341126</data>
+  <data key="d2">2.394591418672128</data>
+</node>
+<node id="IDFM:22123">
+  <data key="d0">Anvers</data>
+  <data key="d1">48.882868568843925</data>
+  <data key="d2">2.344154840330292</data>
+</node>
+<node id="IDFM:22124">
+  <data key="d0">Avron</data>
+  <data key="d1">48.85164854359716</data>
+  <data key="d2">2.3981875566593973</data>
+</node>
+<node id="IDFM:22108">
+  <data key="d0">Ternes</data>
+  <data key="d1">48.8782007528283</data>
+  <data key="d2">2.2981136521983068</data>
+</node>
+<node id="IDFM:22109">
+  <data key="d0">Victor Hugo</data>
+  <data key="d1">48.8698545716049</data>
+  <data key="d2">2.2859020006220643</data>
+</node>
+<node id="IDFM:22100">
+  <data key="d0">Les Sablons</data>
+  <data key="d1">48.88129083793358</data>
+  <data key="d2">2.271904762259129</data>
+</node>
+<node id="IDFM:22101">
+  <data key="d0">La Défense (Grande Arche)</data>
+  <data key="d1">48.89181786646099</data>
+  <data key="d2">2.237988183098828</data>
+</node>
+<node id="IDFM:22102">
+  <data key="d0">Esplanade de la Défense</data>
+  <data key="d1">48.88833173800946</data>
+  <data key="d2">2.2499040727323307</data>
+</node>
+<node id="IDFM:22103">
+  <data key="d0">Saint-Mandé</data>
+  <data key="d1">48.84623820806007</data>
+  <data key="d2">2.418962354532708</data>
+</node>
+<node id="IDFM:22104">
+  <data key="d0">Château de Vincennes</data>
+  <data key="d1">48.84431751431355</data>
+  <data key="d2">2.440540095406114</data>
+</node>
+<node id="IDFM:22105">
+  <data key="d0">Bérault</data>
+  <data key="d1">48.84540614839331</data>
+  <data key="d2">2.4292049740990573</data>
+</node>
+<node id="IDFM:22106">
+  <data key="d0">Villiers</data>
+  <data key="d1">48.88130644704797</data>
+  <data key="d2">2.3157165772440385</data>
+</node>
+<node id="IDFM:22090">
+  <data key="d0">Champs-Élysées - Clemenceau</data>
+  <data key="d1">48.86758395955256</data>
+  <data key="d2">2.314397292025236</data>
+</node>
+<node id="IDFM:22097">
+  <data key="d0">Bastille</data>
+  <data key="d1">48.853425461693256</data>
+  <data key="d2">2.3695064282002</data>
+</node>
+<node id="IDFM:22098">
+  <data key="d0">Reuilly - Diderot</data>
+  <data key="d1">48.84721292669797</data>
+  <data key="d2">2.387201070409392</data>
+</node>
+<node id="IDFM:22095">
+  <data key="d0">Charles de Gaulle - Etoile</data>
+  <data key="d1">48.87383861478572</data>
+  <data key="d2">2.294995735441831</data>
+</node>
+<node id="IDFM:22096">
+  <data key="d0">Concorde</data>
+  <data key="d1">48.86652125193945</data>
+  <data key="d2">2.3220315426557194</data>
+</node>
+<node id="IDFM:22091">
+  <data key="d0">Hôtel de Ville</data>
+  <data key="d1">48.85735240518587</data>
+  <data key="d2">2.3520676701391</data>
+</node>
+<node id="IDFM:22099">
+  <data key="d0">Pont de Neuilly</data>
+  <data key="d1">48.88548938897471</data>
+  <data key="d2">2.258495429369125</data>
+</node>
+<node id="IDFM:22088">
+  <data key="d0">Argentine</data>
+  <data key="d1">48.87566737659971</data>
+  <data key="d2">2.289435418542214</data>
+</node>
+<node id="IDFM:22083">
+  <data key="d0">Gare de Lyon</data>
+  <data key="d1">48.8456832067358</data>
+  <data key="d2">2.3731565937892047</data>
+</node>
+<node id="IDFM:22082">
+  <data key="d0">Franklin D. Roosevelt</data>
+  <data key="d1">48.8691648256349</data>
+  <data key="d2">2.309359666519628</data>
+</node>
+<node id="IDFM:22081">
+  <data key="d0">Louvre - Rivoli</data>
+  <data key="d1">48.86078090878698</data>
+  <data key="d2">2.3409026134809903</data>
+</node>
+<node id="IDFM:22080">
+  <data key="d0">Nation</data>
+  <data key="d1">48.848084289973976</data>
+  <data key="d2">2.3958439887237373</data>
+</node>
+<node id="IDFM:22084">
+  <data key="d0">George V</data>
+  <data key="d1">48.87203776458909</data>
+  <data key="d2">2.300759784978918</data>
+</node>
+<node id="IDFM:22077">
+  <data key="d0">Porte de Vincennes</data>
+  <data key="d1">48.84700773108863</data>
+  <data key="d2">2.4108049967015006</data>
+</node>
+<node id="IDFM:22078">
+  <data key="d0">Porte Maillot</data>
+  <data key="d1">48.87816265364455</data>
+  <data key="d2">2.2825838473615496</data>
+</node>
+<node id="IDFM:22074">
+  <data key="d0">Saint-Paul (Le Marais)</data>
+  <data key="d1">48.85518742160445</data>
+  <data key="d2">2.3608852562751967</data>
+</node>
+<node id="IDFM:22075">
+  <data key="d0">Tuileries</data>
+  <data key="d1">48.864550163577015</data>
+  <data key="d2">2.3297453212172794</data>
+</node>
+<node id="IDFM:22062">
+  <data key="d0">Mairie d'Issy</data>
+  <data key="d1">48.82416442588802</data>
+  <data key="d2">2.273560674093182</data>
+</node>
+<node id="IDFM:22061">
+  <data key="d0">Corentin Celton</data>
+  <data key="d1">48.82682329515912</data>
+  <data key="d2">2.2789586605256367</data>
+</node>
+<node id="IDFM:22060">
+  <data key="d0">Assemblée Nationale</data>
+  <data key="d1">48.86107193952608</data>
+  <data key="d2">2.320575836647556</data>
+</node>
+<node id="IDFM:22059">
+  <data key="d0">Abbesses</data>
+  <data key="d1">48.884383574623314</data>
+  <data key="d2">2.338367478180517</data>
+</node>
+<node id="IDFM:22055">
+  <data key="d0">Lamarck - Caulaincourt</data>
+  <data key="d1">48.8896991322768</data>
+  <data key="d2">2.338463589982122</data>
+</node>
+<node id="IDFM:22056">
+  <data key="d0">Falguière</data>
+  <data key="d1">48.844317683534335</data>
+  <data key="d2">2.317551235617027</data>
+</node>
+<node id="IDFM:22058">
+  <data key="d0">Convention</data>
+  <data key="d1">48.837125900521</data>
+  <data key="d2">2.2963642614342694</data>
+</node>
+<node id="IDFM:22051">
+  <data key="d0">Notre-Dame des Champs</data>
+  <data key="d1">48.84508150807547</data>
+  <data key="d2">2.328564944227944</data>
+</node>
+<node id="IDFM:22054">
+  <data key="d0">Jules Joffrin</data>
+  <data key="d1">48.892492268201934</data>
+  <data key="d2">2.3443200293804827</data>
+</node>
+<node id="IDFM:22053">
+  <data key="d0">Marx Dormoy</data>
+  <data key="d1">48.89060729278663</data>
+  <data key="d2">2.359945883178033</data>
+</node>
+<node id="IDFM:22050">
+  <data key="d0">Notre-Dame-de-Lorette</data>
+  <data key="d1">48.8760350312806</data>
+  <data key="d2">2.3378736192226386</data>
+</node>
+<node id="IDFM:22047">
+  <data key="d0">Vaugirard</data>
+  <data key="d1">48.8394379180769</data>
+  <data key="d2">2.3010745156545456</data>
+</node>
+<node id="IDFM:22046">
+  <data key="d0">Trinité - d'Estienne d'Orves</data>
+  <data key="d1">48.87625096700832</data>
+  <data key="d2">2.333030634158166</data>
+</node>
+<node id="IDFM:22045">
+  <data key="d0">Solférino</data>
+  <data key="d1">48.85855008964175</data>
+  <data key="d2">2.323102988298513</data>
+</node>
+<node id="IDFM:22044">
+  <data key="d0">Saint-Georges</data>
+  <data key="d1">48.87841659490173</data>
+  <data key="d2">2.3375706403796697</data>
+</node>
+<node id="IDFM:22049">
+  <data key="d0">Rennes</data>
+  <data key="d1">48.84833282904063</data>
+  <data key="d2">2.3277871847873874</data>
+</node>
+<node id="IDFM:22048">
+  <data key="d0">Volontaires</data>
+  <data key="d1">48.84141172841498</data>
+  <data key="d2">2.3079833805768515</data>
+</node>
+<node id="IDFM:22042">
+  <data key="d0">Porte de Versailles</data>
+  <data key="d1">48.83230151439446</data>
+  <data key="d2">2.28813294509322</data>
+</node>
+<node id="IDFM:22043">
+  <data key="d0">Rue du Bac</data>
+  <data key="d1">48.85587553200213</data>
+  <data key="d2">2.3256727584985164</data>
+</node>
+<node id="IDFM:22041">
+  <data key="d0">Porte de la Chapelle</data>
+  <data key="d1">48.89740242267042</data>
+  <data key="d2">2.359248542310361</data>
+</node>
+<node id="IDFM:22034">
+  <data key="d0">Louise Michel</data>
+  <data key="d1">48.88853900119613</data>
+  <data key="d2">2.2882778490679767</data>
+</node>
+<node id="IDFM:22033">
+  <data key="d0">Bourse</data>
+  <data key="d1">48.86879284393317</data>
+  <data key="d2">2.340678546975881</data>
+</node>
+<node id="IDFM:22036">
+  <data key="d0">Anatole France</data>
+  <data key="d1">48.892206617614</data>
+  <data key="d2">2.28498169634032</data>
+</node>
+<node id="IDFM:22035">
+  <data key="d0">Pont de Levallois - Bécon</data>
+  <data key="d1">48.89718710383118</data>
+  <data key="d2">2.280180198501724</data>
+</node>
+<node id="IDFM:22037">
+  <data key="d0">Gallieni</data>
+  <data key="d1">48.86512770051251</data>
+  <data key="d2">2.4159299613832097</data>
+</node>
+<node id="IDFM:22031">
+  <data key="d0">Malesherbes</data>
+  <data key="d1">48.882763294053696</data>
+  <data key="d2">2.3094384103380805</data>
+</node>
+<node id="IDFM:22032">
+  <data key="d0">Europe</data>
+  <data key="d1">48.878780759649736</data>
+  <data key="d2">2.322294641649836</data>
+</node>
+<node id="IDFM:22029">
+  <data key="d0">Sentier</data>
+  <data key="d1">48.86734660429376</data>
+  <data key="d2">2.3475538159377884</data>
+</node>
+<node id="IDFM:22028">
+  <data key="d0">Wagram</data>
+  <data key="d1">48.88376067556563</data>
+  <data key="d2">2.3046251407269573</data>
+</node>
+<node id="IDFM:22026">
+  <data key="d0">Temple</data>
+  <data key="d1">48.86675662943444</data>
+  <data key="d2">2.361561234526356</data>
+</node>
+<node id="IDFM:22025">
+  <data key="d0">Rue Saint-Maur</data>
+  <data key="d1">48.86413108020325</data>
+  <data key="d2">2.380486332251813</data>
+</node>
+<node id="IDFM:22024">
+  <data key="d0">Quatre Septembre</data>
+  <data key="d1">48.86959592111917</data>
+  <data key="d2">2.3362786423248583</data>
+</node>
+<node id="IDFM:22023">
+  <data key="d0">Porte de Champerret</data>
+  <data key="d1">48.885736266685264</data>
+  <data key="d2">2.291848147336647</data>
+</node>
+<node id="IDFM:22022">
+  <data key="d0">Porte de Bagnolet</data>
+  <data key="d1">48.86432836987192</data>
+  <data key="d2">2.4088234090802456</data>
+</node>
+<node id="IDFM:22021">
+  <data key="d0">Pereire</data>
+  <data key="d1">48.88484432273985</data>
+  <data key="d2">2.297683186012584</data>
+</node>
+<node id="IDFM:22016">
+  <data key="d0">Église de Pantin</data>
+  <data key="d1">48.893163974098265</data>
+  <data key="d2">2.413119553706935</data>
+</node>
+<node id="IDFM:22015">
+  <data key="d0">Bobigny Pablo Picasso</data>
+  <data key="d1">48.9063655341063</data>
+  <data key="d2">2.4490271414582585</data>
+</node>
+<node id="IDFM:22017">
+  <data key="d0">Hoche</data>
+  <data key="d1">48.89128939386479</data>
+  <data key="d2">2.4032119887626737</data>
+</node>
+<node id="IDFM:22012">
+  <data key="d0">Laumière</data>
+  <data key="d1">48.88513384808583</data>
+  <data key="d2">2.3793909893523923</data>
+</node>
+<node id="IDFM:22011">
+  <data key="d0">Jacques Bonsergent</data>
+  <data key="d1">48.87066646803471</data>
+  <data key="d2">2.3611315892483544</data>
+</node>
+<node id="IDFM:22014">
+  <data key="d0">Bobigny-Pantin - Raymond Queneau</data>
+  <data key="d1">48.89560207433252</data>
+  <data key="d2">2.426308679232036</data>
+</node>
+<node id="IDFM:22019">
+  <data key="d0">Parmentier</data>
+  <data key="d1">48.86524326053047</data>
+  <data key="d2">2.3747205969196896</data>
+</node>
+<node id="IDFM:22004">
+  <data key="d0">Quai de la Rapée</data>
+  <data key="d1">48.84649085420337</data>
+  <data key="d2">2.365992890937552</data>
+</node>
+<node id="IDFM:22005">
+  <data key="d0">Ourcq</data>
+  <data key="d1">48.88714990283661</data>
+  <data key="d2">2.3866765356019912</data>
+</node>
+<node id="IDFM:22000">
+  <data key="d0">Saint-Marcel</data>
+  <data key="d1">48.83853898898134</data>
+  <data key="d2">2.3606397867113924</data>
+</node>
+<node id="IDFM:22002">
+  <data key="d0">Richard-Lenoir</data>
+  <data key="d1">48.85987693786871</data>
+  <data key="d2">2.371813630476951</data>
+</node>
+<node id="IDFM:22003">
+  <data key="d0">Porte de Pantin</data>
+  <data key="d1">48.888535337600175</data>
+  <data key="d2">2.3920607143419303</data>
+</node>
+<node id="IDFM:22008">
+  <data key="d0">Bréguet-Sabin</data>
+  <data key="d1">48.85624405468632</data>
+  <data key="d2">2.370194668589752</data>
+</node>
+<node id="IDFM:22009">
+  <data key="d0">Campo-Formio</data>
+  <data key="d1">48.83559543123327</data>
+  <data key="d2">2.358468834639247</data>
+</node>
+<node id="IDFM:462915">
+  <data key="d0">Saint-Philippe-du-Roule</data>
+  <data key="d1">48.87215513107743</data>
+  <data key="d2">2.3101372056878247</data>
+</node>
+<node id="IDFM:462914">
+  <data key="d0">Marcel Sembat</data>
+  <data key="d1">48.83359298218974</data>
+  <data key="d2">2.243583048618053</data>
+</node>
+<node id="IDFM:462966">
+  <data key="d0">Sèvres - Babylone</data>
+  <data key="d1">48.85157445264095</data>
+  <data key="d2">2.326886801039095</data>
+</node>
+<node id="IDFM:462944">
+  <data key="d0">Cluny - La Sorbonne</data>
+  <data key="d1">48.850793731720536</data>
+  <data key="d2">2.3450218824744566</data>
+</node>
+<node id="IDFM:462945">
+  <data key="d0">Rambuteau</data>
+  <data key="d1">48.86119015695036</data>
+  <data key="d2">2.353273948594772</data>
+</node>
+<node id="IDFM:462956">
+  <data key="d0">Exelmans</data>
+  <data key="d1">48.842624465259945</data>
+  <data key="d2">2.25967486021195</data>
+</node>
+<node id="IDFM:462958">
+  <data key="d0">Javel - André Citroën</data>
+  <data key="d1">48.846086877931405</data>
+  <data key="d2">2.2780435059854063</data>
+</node>
+<node id="IDFM:462959">
+  <data key="d0">Vaneau</data>
+  <data key="d1">48.84889457005888</data>
+  <data key="d2">2.321351242354736</data>
+</node>
+<node id="IDFM:462991">
+  <data key="d0">Gambetta</data>
+  <data key="d1">48.86497267606974</data>
+  <data key="d2">2.3973588775666475</data>
+</node>
+<node id="IDFM:462990">
+  <data key="d0">Pelleport</data>
+  <data key="d1">48.86846488701483</data>
+  <data key="d2">2.4014967922879253</data>
+</node>
+<node id="IDFM:462994">
+  <data key="d0">Mabillon</data>
+  <data key="d1">48.85296034336302</data>
+  <data key="d2">2.3350868179946915</data>
+</node>
+<node id="IDFM:21967">
+  <data key="d0">Gare d'Austerlitz</data>
+  <data key="d1">48.84235503507328</data>
+  <data key="d2">2.364530764084249</data>
+</node>
+<node id="IDFM:21979">
+  <data key="d0">Ségur</data>
+  <data key="d1">48.84722639005396</data>
+  <data key="d2">2.3072520746428715</data>
+</node>
+<node id="IDFM:21975">
+  <data key="d0">Maubert - Mutualité</data>
+  <data key="d1">48.85010969451494</data>
+  <data key="d2">2.348219343927666</data>
+</node>
+<node id="IDFM:21974">
+  <data key="d0">Porte d'Auteuil</data>
+  <data key="d1">48.84812886119474</data>
+  <data key="d2">2.2582639186231943</data>
+</node>
+<node id="IDFM:21971">
+  <data key="d0">Église d'Auteuil</data>
+  <data key="d1">48.84714336145718</data>
+  <data key="d2">2.269111389021892</data>
+</node>
+<node id="IDFM:21986">
+  <data key="d0">Charles Michels</data>
+  <data key="d1">48.84636172348247</data>
+  <data key="d2">2.2856243417995747</data>
+</node>
+<node id="IDFM:21987">
+  <data key="d0">Avenue Émile Zola</data>
+  <data key="d1">48.84695722990175</data>
+  <data key="d2">2.2950459810371475</data>
+</node>
+<node id="IDFM:21988">
+  <data key="d0">Boulogne Jean Jaurès</data>
+  <data key="d1">48.842063301935575</data>
+  <data key="d2">2.239042669312605</data>
+</node>
+<node id="IDFM:21989">
+  <data key="d0">Boulogne Pont de Saint-Cloud</data>
+  <data key="d1">48.84067248206251</data>
+  <data key="d2">2.2283125898228056</data>
+</node>
+<node id="IDFM:21982">
+  <data key="d0">Mirabeau</data>
+  <data key="d1">48.84707750734599</data>
+  <data key="d2">2.2730641263728333</data>
+</node>
+<node id="IDFM:21984">
+  <data key="d0">Cardinal Lemoine</data>
+  <data key="d1">48.84670003526311</data>
+  <data key="d2">2.3513280016731763</data>
+</node>
+<node id="IDFM:21985">
+  <data key="d0">Chardon Lagache</data>
+  <data key="d1">48.84508829917885</data>
+  <data key="d2">2.26690547594029</data>
+</node>
+<node id="IDFM:21999">
+  <data key="d0">Mairie des Lilas</data>
+  <data key="d1">48.87974365006289</data>
+  <data key="d2">2.4162978208011863</data>
+</node>
+<node id="IDFM:21997">
+  <data key="d0">Arts et Métiers</data>
+  <data key="d1">48.86529961264491</data>
+  <data key="d2">2.3565081436435467</data>
+</node>
+<node id="IDFM:21991">
+  <data key="d0">Pyrénées</data>
+  <data key="d1">48.87381265491752</data>
+  <data key="d2">2.384883957748741</data>
+</node>
+<node id="IDFM:21995">
+  <data key="d0">Jourdain</data>
+  <data key="d1">48.875247348641416</data>
+  <data key="d2">2.389325378910096</data>
+</node>
+<node id="IDFM:21996">
+  <data key="d0">Goncourt</data>
+  <data key="d1">48.8700070178386</data>
+  <data key="d2">2.3707644347484003</data>
+</node>
+<node id="IDFM:21993">
+  <data key="d0">Télégraphe</data>
+  <data key="d1">48.87551038418075</data>
+  <data key="d2">2.3986480899605933</data>
+</node>
+<node id="IDFM:21913">
+  <data key="d0">Porte de Montreuil</data>
+  <data key="d1">48.85356350094303</data>
+  <data key="d2">2.4107036110235414</data>
+</node>
+<node id="IDFM:21914">
+  <data key="d0">Porte de Saint-Cloud</data>
+  <data key="d1">48.83795840561949</data>
+  <data key="d2">2.2570461929221506</data>
+</node>
+<node id="IDFM:21915">
+  <data key="d0">Ranelagh</data>
+  <data key="d1">48.855306214887065</data>
+  <data key="d2">2.270032697561899</data>
+</node>
+<node id="IDFM:21916">
+  <data key="d0">Voltaire</data>
+  <data key="d1">48.857735295553454</data>
+  <data key="d2">2.3802080115879227</data>
+</node>
+<node id="IDFM:21910">
+  <data key="d0">Saint-Ambroise</data>
+  <data key="d1">48.86141665790915</data>
+  <data key="d2">2.3738805382115475</data>
+</node>
+<node id="IDFM:21911">
+  <data key="d0">Saint-Augustin</data>
+  <data key="d1">48.87454661293485</data>
+  <data key="d2">2.3210135978086</data>
+</node>
+<node id="IDFM:21907">
+  <data key="d0">Michel-Ange - Auteuil</data>
+  <data key="d1">48.84797535417627</data>
+  <data key="d2">2.263989525333329</data>
+</node>
+<node id="IDFM:21906">
+  <data key="d0">Havre-Caumartin</data>
+  <data key="d1">48.87346783937801</data>
+  <data key="d2">2.327462798423509</data>
+</node>
+<node id="IDFM:21908">
+  <data key="d0">Rue de la Pompe</data>
+  <data key="d1">48.863951708879945</data>
+  <data key="d2">2.2778858979590564</data>
+</node>
+<node id="IDFM:21904">
+  <data key="d0">Michel-Ange - Molitor</data>
+  <data key="d1">48.84515597018703</data>
+  <data key="d2">2.2618218573220084</data>
+</node>
+<node id="IDFM:21905">
+  <data key="d0">Oberkampf</data>
+  <data key="d1">48.86458119806749</data>
+  <data key="d2">2.36852626860384</data>
+</node>
+<node id="IDFM:21934">
+  <data key="d0">Charonne</data>
+  <data key="d1">48.85500743705073</data>
+  <data key="d2">2.3848878986690423</data>
+</node>
+<node id="IDFM:21936">
+  <data key="d0">Maraîchers</data>
+  <data key="d1">48.85273102047999</data>
+  <data key="d2">2.406038544798052</data>
+</node>
+<node id="IDFM:21935">
+  <data key="d0">Alma - Marceau</data>
+  <data key="d1">48.8647282422178</data>
+  <data key="d2">2.301130527470699</data>
+</node>
+<node id="IDFM:21938">
+  <data key="d0">Pont de Sèvres</data>
+  <data key="d1">48.82968726438348</data>
+  <data key="d2">2.2305185727726955</data>
+</node>
+<node id="IDFM:21928">
+  <data key="d0">Jasmin</data>
+  <data key="d1">48.85246214784456</data>
+  <data key="d2">2.268219083521012</data>
+</node>
+<node id="IDFM:21929">
+  <data key="d0">La Muette</data>
+  <data key="d1">48.85809196689865</data>
+  <data key="d2">2.2740962446697224</data>
+</node>
+<node id="IDFM:21927">
+  <data key="d0">Iéna</data>
+  <data key="d1">48.86468583928868</data>
+  <data key="d2">2.293906396859107</data>
+</node>
+<node id="IDFM:21954">
+  <data key="d0">Olympiades</data>
+  <data key="d1">48.827123441429386</data>
+  <data key="d2">2.3669231215308075</data>
+</node>
+<node id="IDFM:21956">
+  <data key="d0">Cour Saint-Emilion</data>
+  <data key="d1">48.83334999725014</data>
+  <data key="d2">2.386464909364189</data>
+</node>
+<node id="IDFM:21955">
+  <data key="d0">Bibliothèque François Mitterrand</data>
+  <data key="d1">48.8300063775369</data>
+  <data key="d2">2.3764237443204546</data>
+</node>
+<node id="IDFM:21941">
+  <data key="d0">Mairie de Montreuil</data>
+  <data key="d1">48.8622744369706</data>
+  <data key="d2">2.4418193772459085</data>
+</node>
+<node id="IDFM:21949">
+  <data key="d0">Porte des Lilas</data>
+  <data key="d1">48.87723143067265</data>
+  <data key="d2">2.4065226763982275</data>
+</node>
+<node id="IDFM:21946">
+  <data key="d0">Saint-Fargeau</data>
+  <data key="d1">48.87184337222297</data>
+  <data key="d2">2.4044981831688688</data>
+</node>
+<node id="IDFM:21943">
+  <data key="d0">Croix de Chavaux</data>
+  <data key="d1">48.857992585158016</data>
+  <data key="d2">2.4358546126745826</data>
+</node>
+<node id="IDFM:21942">
+  <data key="d0">Robespierre</data>
+  <data key="d1">48.85567380855032</data>
+  <data key="d2">2.422973086496352</data>
+</node>
+<node id="IDFM:21939">
+  <data key="d0">Billancourt</data>
+  <data key="d1">48.83183051284947</data>
+  <data key="d2">2.237965973200589</data>
+</node>
+<node id="IDFM:21784">
+  <data key="d0">Pointe du Lac</data>
+  <data key="d1">48.76875224860992</data>
+  <data key="d2">2.464290193819998</data>
+</node>
+<node id="IDFM:463222">
+  <data key="d0">Mairie de Montrouge</data>
+  <data key="d1">48.81845445619</data>
+  <data key="d2">2.319619399123785</data>
+</node>
+<node id="IDFM:25084">
+  <data key="d0">Buzenval</data>
+  <data key="d1">48.85176243983227</data>
+  <data key="d2">2.401170769368413</data>
+</node>
+<node id="IDFM:480288">
+  <data key="d0">Saint-Ouen</data>
+  <data key="d1">48.90521399238465</data>
+  <data key="d2">2.322659882113172</data>
+</node>
+<node id="IDFM:480286">
+  <data key="d0">Pont Cardinet</data>
+  <data key="d1">48.8881023898884</data>
+  <data key="d2">2.3151908648850013</data>
+</node>
+<node id="IDFM:483277">
+  <data key="d0">Barbara</data>
+  <data key="d1">48.80979025430712</data>
+  <data key="d2">2.3174992240284045</data>
+</node>
+<node id="IDFM:483279">
+  <data key="d0">Bagneux - Lucie Aubrac</data>
+  <data key="d1">48.80356582047439</data>
+  <data key="d2">2.3173900542429133</data>
+</node>
+<node id="IDFM:483900">
+  <data key="d0">Aimé Césaire</data>
+  <data key="d1">48.90843758066954</data>
+  <data key="d2">2.37813084516706</data>
+</node>
+<node id="IDFM:483898">
+  <data key="d0">Mairie d'Aubervilliers</data>
+  <data key="d1">48.91373058592168</data>
+  <data key="d2">2.3808510232809863</data>
+</node>
+<node id="IDFM:490770">
+  <data key="d0">Coteaux Beauclair</data>
+  <data key="d1">48.88212212689498</data>
+  <data key="d2">2.4673647804495924</data>
+</node>
+<node id="IDFM:490772">
+  <data key="d0">Rosny-Bois-Perrier</data>
+  <data key="d1">48.88307064342213</data>
+  <data key="d2">2.480609352352493</data>
+</node>
+<node id="IDFM:490774">
+  <data key="d0">Saint-Denis - Pleyel</data>
+  <data key="d1">48.91891285848584</data>
+  <data key="d2">2.345747422110964</data>
+</node>
+<node id="IDFM:490766">
+  <data key="d0">Montreuil - Hôpital</data>
+  <data key="d1">48.87833284108111</data>
+  <data key="d2">2.454682210916966</data>
+</node>
+<node id="IDFM:490768">
+  <data key="d0">La Dhuys</data>
+  <data key="d1">48.87808331706366</data>
+  <data key="d2">2.4651563455784005</data>
+</node>
+<node id="IDFM:490762">
+  <data key="d0">Serge Gainsbourg</data>
+  <data key="d1">48.88125303440166</data>
+  <data key="d2">2.427162168589524</data>
+</node>
+<node id="IDFM:490764">
+  <data key="d0">Romainville-Carnot</data>
+  <data key="d1">48.88369120755144</data>
+  <data key="d2">2.440689824547642</data>
+</node>
+<node id="IDFM:490837">
+  <data key="d0">L'Haÿ-les-Roses</data>
+  <data key="d1">48.77532646395088</data>
+  <data key="d2">2.354991210566311</data>
+</node>
+<node id="IDFM:490839">
+  <data key="d0">Hôpital Bicêtre</data>
+  <data key="d1">48.809971090725966</data>
+  <data key="d2">2.349946533239157</data>
+</node>
+<node id="IDFM:490833">
+  <data key="d0">Thiais - Orly​ (Pont de Rungis​)</data>
+  <data key="d1">48.74683536938685</data>
+  <data key="d2">2.3723847511214924</data>
+</node>
+<node id="IDFM:490835">
+  <data key="d0">Chevilly-Larue​ (Marché International​)</data>
+  <data key="d1">48.75849291543452</data>
+  <data key="d2">2.3674425092258047</data>
+</node>
+<node id="IDFM:490906">
+  <data key="d0">Villejuif - Gustave Roussy</data>
+  <data key="d1">48.79323843160607</data>
+  <data key="d2">2.349229361846555</data>
+</node>
+<node id="IDFM:490908">
+  <data key="d0">Aéroport d'Orly</data>
+  <data key="d1">48.72791952094524</data>
+  <data key="d2">2.362102529020536</data>
+</node>
+<edge source="IDFM:24683" target="IDFM:24685">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24683" target="IDFM:24686">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24682" target="IDFM:21993">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24682" target="IDFM:21995">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24682" target="IDFM:24686">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24682" target="IDFM:24684">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24681" target="IDFM:24680">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24681" target="IDFM:22368">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24681" target="IDFM:22367">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24680" target="IDFM:22012">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24680" target="IDFM:22368">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24680" target="IDFM:24685">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24680" target="IDFM:22120">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24686" target="IDFM:24687">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24687" target="IDFM:24684">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24679" target="IDFM:22041">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:24679" target="IDFM:483900">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22401" target="IDFM:22399">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22401" target="IDFM:22400">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22442" target="IDFM:22080">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22442" target="IDFM:21934">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22378" target="IDFM:22364">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22378" target="IDFM:22369">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22379" target="IDFM:22376">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22379" target="IDFM:22364">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22379" target="IDFM:22081">
+  <data key="d4">5.433333333333334</data>
+</edge>
+<edge source="IDFM:22374" target="IDFM:22389">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22374" target="IDFM:22394">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22375" target="IDFM:22194">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22375" target="IDFM:22364">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22375" target="IDFM:22381">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22375" target="IDFM:22376">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22376" target="IDFM:22075">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22376" target="IDFM:22081">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22377" target="IDFM:22387">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22377" target="IDFM:22390">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22371" target="IDFM:22392">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22371" target="IDFM:22368">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22370" target="IDFM:22365">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22370" target="IDFM:22385">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22373" target="IDFM:22372">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22373" target="IDFM:22380">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22372" target="IDFM:22397">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22389" target="IDFM:22392">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22387" target="IDFM:22149">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22387" target="IDFM:22011">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22387" target="IDFM:22367">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22387" target="IDFM:22153">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22388" target="IDFM:22196">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22388" target="IDFM:21906">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22388" target="IDFM:22382">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22388" target="IDFM:22381">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22385" target="IDFM:21954">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22385" target="IDFM:490839">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22385" target="IDFM:22398">
+  <data key="d4">2.0</data>
+</edge>
+<edge source="IDFM:22385" target="IDFM:22380">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22386" target="IDFM:21984">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22386" target="IDFM:21967">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22386" target="IDFM:22369">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22386" target="IDFM:22366">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22383" target="IDFM:22391">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22383" target="IDFM:22365">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22382" target="IDFM:22390">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22382" target="IDFM:22050">
+  <data key="d4">4.316666666666666</data>
+</edge>
+<edge source="IDFM:22381" target="IDFM:22024">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22381" target="IDFM:21906">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22381" target="IDFM:22194">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22381" target="IDFM:22196">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22396" target="IDFM:22397">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22398" target="IDFM:22399">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22391" target="IDFM:22366">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22393" target="IDFM:22395">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22393" target="IDFM:22394">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22368" target="IDFM:22149">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22368" target="IDFM:22119">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22364" target="IDFM:22091">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22364" target="IDFM:22081">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22364" target="IDFM:22083">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22364" target="IDFM:22150">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22364" target="IDFM:22146">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22365" target="IDFM:22175">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22365" target="IDFM:22169">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22365" target="IDFM:22009">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22206" target="IDFM:22184">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22206" target="IDFM:22207">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22207" target="IDFM:22208">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22208" target="IDFM:22209">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22209" target="IDFM:22210">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22202" target="IDFM:22201">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22202" target="IDFM:22097">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22202" target="IDFM:22008">
+  <data key="d4">3.6666666666666665</data>
+</edge>
+<edge source="IDFM:22203" target="IDFM:22097">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22203" target="IDFM:22204">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22204" target="IDFM:22098">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22205" target="IDFM:22098">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22205" target="IDFM:22184">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22200" target="IDFM:22199">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22200" target="IDFM:22201">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22200" target="IDFM:21905">
+  <data key="d4">4.4</data>
+</edge>
+<edge source="IDFM:22221" target="IDFM:22235">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22221" target="IDFM:22223">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22220" target="IDFM:22228">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22220" target="IDFM:22244">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22223" target="IDFM:22222">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22222" target="IDFM:22230">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22225" target="IDFM:22218">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22225" target="IDFM:22115">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22224" target="IDFM:22090">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22224" target="IDFM:22218">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22224" target="IDFM:462915">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22224" target="IDFM:21911">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22227" target="IDFM:22231">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22227" target="IDFM:22115">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22227" target="IDFM:22228">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22226" target="IDFM:22217">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22226" target="IDFM:22185">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22229" target="IDFM:22143">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22229" target="IDFM:22217">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22229" target="IDFM:21979">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22229" target="IDFM:462959">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22229" target="IDFM:22056">
+  <data key="d4">5.6</data>
+</edge>
+<edge source="IDFM:22212" target="IDFM:22211">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22212" target="IDFM:22213">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22211" target="IDFM:22216">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22210" target="IDFM:22214">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22216" target="IDFM:22215">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22215" target="IDFM:22214">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22213" target="IDFM:21784">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22219" target="IDFM:22238">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22219" target="IDFM:22231">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22219" target="IDFM:480288">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22219" target="IDFM:480286">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22218" target="IDFM:22194">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22218" target="IDFM:22046">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22218" target="IDFM:480286">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22218" target="IDFM:21906">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22218" target="IDFM:22032">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22218" target="IDFM:21911">
+  <data key="d4">2.3333333333333335</data>
+</edge>
+<edge source="IDFM:22243" target="IDFM:22244">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22243" target="IDFM:22239">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22243" target="IDFM:490774">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22243" target="IDFM:480288">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22242" target="IDFM:22240">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22240" target="IDFM:22241">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22241" target="IDFM:22239">
+  <data key="d4">2.0</data>
+</edge>
+<edge source="IDFM:22238" target="IDFM:22234">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22237" target="IDFM:22236">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22236" target="IDFM:22235">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22234" target="IDFM:22232">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22233" target="IDFM:22232">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22239" target="IDFM:490774">
+  <data key="d4">14.0</data>
+</edge>
+<edge source="IDFM:22230" target="IDFM:22143">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22131" target="IDFM:22172">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22131" target="IDFM:22151">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22131" target="IDFM:22135">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22130" target="IDFM:22123">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22130" target="IDFM:22119">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22130" target="IDFM:22149">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22130" target="IDFM:22152">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22136" target="IDFM:22139">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22136" target="IDFM:22145">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22136" target="IDFM:462994">
+  <data key="d4">2.283333333333333</data>
+</edge>
+<edge source="IDFM:22137" target="IDFM:22145">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22137" target="IDFM:22150">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22137" target="IDFM:462944">
+  <data key="d4">6.2</data>
+</edge>
+<edge source="IDFM:22138" target="IDFM:22143">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22138" target="IDFM:22139">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22138" target="IDFM:22049">
+  <data key="d4">3.1666666666666665</data>
+</edge>
+<edge source="IDFM:22138" target="IDFM:22051">
+  <data key="d4">5.1</data>
+</edge>
+<edge source="IDFM:22139" target="IDFM:462966">
+  <data key="d4">5.85</data>
+</edge>
+<edge source="IDFM:22132" target="IDFM:22054">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22132" target="IDFM:22053">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22132" target="IDFM:22152">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22132" target="IDFM:22133">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22133" target="IDFM:22141">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22133" target="IDFM:22054">
+  <data key="d4">6.216666666666667</data>
+</edge>
+<edge source="IDFM:22134" target="IDFM:22199">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22134" target="IDFM:22198">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22134" target="IDFM:22142">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22134" target="IDFM:22153">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22135" target="IDFM:22143">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22135" target="IDFM:22172">
+  <data key="d4">5.966666666666667</data>
+</edge>
+<edge source="IDFM:22142" target="IDFM:21997">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22142" target="IDFM:22029">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22142" target="IDFM:22147">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22140" target="IDFM:463222">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22140" target="IDFM:22154">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22149" target="IDFM:22119">
+  <data key="d4">7.0</data>
+</edge>
+<edge source="IDFM:22147" target="IDFM:22146">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22145" target="IDFM:462994">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22145" target="IDFM:462944">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22143" target="IDFM:22166">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22143" target="IDFM:22172">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22143" target="IDFM:22056">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22143" target="IDFM:22051">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22144" target="IDFM:22151">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22144" target="IDFM:22154">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22151" target="IDFM:22160">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22160" target="IDFM:22173">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22164" target="IDFM:22180">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22164" target="IDFM:22165">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22164" target="IDFM:21908">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22164" target="IDFM:21927">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22163" target="IDFM:22176">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22163" target="IDFM:22166">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22163" target="IDFM:21979">
+  <data key="d4">5.133333333333334</data>
+</edge>
+<edge source="IDFM:22162" target="IDFM:22171">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22162" target="IDFM:22176">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22162" target="IDFM:21987">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22162" target="IDFM:21979">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22162" target="IDFM:22190">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22162" target="IDFM:22191">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22161" target="IDFM:22174">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22161" target="IDFM:22178">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22167" target="IDFM:22177">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22167" target="IDFM:22080">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22165" target="IDFM:22179">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22166" target="IDFM:22048">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22166" target="IDFM:22056">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22169" target="IDFM:22174">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22173" target="IDFM:22175">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22170" target="IDFM:22095">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22170" target="IDFM:22180">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22171" target="IDFM:22179">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22177" target="IDFM:22184">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22178" target="IDFM:22182">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22178" target="IDFM:22083">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22178" target="IDFM:21956">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22185" target="IDFM:22090">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22185" target="IDFM:22192">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22185" target="IDFM:22096">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22186" target="IDFM:22187">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22184" target="IDFM:22182">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22189" target="IDFM:22188">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22189" target="IDFM:22190">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22188" target="IDFM:22187">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22190" target="IDFM:21987">
+  <data key="d4">5.866666666666666</data>
+</edge>
+<edge source="IDFM:22191" target="IDFM:22192">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22194" target="IDFM:22096">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22196" target="IDFM:22197">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22196" target="IDFM:22024">
+  <data key="d4">5.733333333333333</data>
+</edge>
+<edge source="IDFM:22197" target="IDFM:22198">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22199" target="IDFM:21996">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22199" target="IDFM:21997">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22199" target="IDFM:22011">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22199" target="IDFM:21905">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22199" target="IDFM:22019">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22199" target="IDFM:22026">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22116" target="IDFM:22126">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22116" target="IDFM:22112">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22117" target="IDFM:22121">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22117" target="IDFM:22106">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22117" target="IDFM:22031">
+  <data key="d4">5.166666666666667</data>
+</edge>
+<edge source="IDFM:22114" target="IDFM:22044">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22114" target="IDFM:22059">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22114" target="IDFM:22125">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22114" target="IDFM:22123">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22115" target="IDFM:22110">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22115" target="IDFM:22125">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22112" target="IDFM:22113">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22112" target="IDFM:462991">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22112" target="IDFM:22025">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22113" target="IDFM:22122">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22110" target="IDFM:22106">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22111" target="IDFM:22109">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22120" target="IDFM:22128">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22126" target="IDFM:22128">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22128" target="IDFM:21991">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22128" target="IDFM:21996">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22121" target="IDFM:22108">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22122" target="IDFM:22124">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22124" target="IDFM:22080">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22124" target="IDFM:25084">
+  <data key="d4">4.633333333333334</data>
+</edge>
+<edge source="IDFM:22108" target="IDFM:22095">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22109" target="IDFM:22095">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22100" target="IDFM:22099">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22100" target="IDFM:22078">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22101" target="IDFM:22102">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22102" target="IDFM:22099">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22103" target="IDFM:22077">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22103" target="IDFM:22105">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22104" target="IDFM:22105">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22106" target="IDFM:22032">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22106" target="IDFM:22031">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22090" target="IDFM:22082">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22090" target="IDFM:22096">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22097" target="IDFM:22008">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22097" target="IDFM:22004">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22097" target="IDFM:22074">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22097" target="IDFM:22083">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22098" target="IDFM:22083">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22098" target="IDFM:22080">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22095" target="IDFM:22084">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22095" target="IDFM:22088">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22096" target="IDFM:22060">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22096" target="IDFM:22075">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22091" target="IDFM:462945">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22091" target="IDFM:22074">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22088" target="IDFM:22078">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22082" target="IDFM:21935">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22082" target="IDFM:462915">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22082" target="IDFM:22084">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22080" target="IDFM:25084">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22080" target="IDFM:22077">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22062" target="IDFM:22061">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22061" target="IDFM:22042">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22060" target="IDFM:22045">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22059" target="IDFM:22055">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22055" target="IDFM:22054">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22058" target="IDFM:22042">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22058" target="IDFM:22047">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22051" target="IDFM:22049">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22053" target="IDFM:22041">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22050" target="IDFM:22046">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22050" target="IDFM:22044">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22047" target="IDFM:22048">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22045" target="IDFM:22043">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22049" target="IDFM:462966">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22043" target="IDFM:462966">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22034" target="IDFM:22023">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22034" target="IDFM:22036">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22033" target="IDFM:22029">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22033" target="IDFM:22024">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22036" target="IDFM:22035">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22037" target="IDFM:22022">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22031" target="IDFM:22028">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22028" target="IDFM:22021">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22026" target="IDFM:21997">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22025" target="IDFM:22019">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22023" target="IDFM:22021">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22022" target="IDFM:462991">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22016" target="IDFM:22014">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22016" target="IDFM:22017">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22015" target="IDFM:22014">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22017" target="IDFM:22003">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22012" target="IDFM:22005">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22004" target="IDFM:21967">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22005" target="IDFM:22003">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22000" target="IDFM:21967">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22000" target="IDFM:22009">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22002" target="IDFM:21905">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22002" target="IDFM:22008">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:22002" target="IDFM:21910">
+  <data key="d4">4.733333333333333</data>
+</edge>
+<edge source="IDFM:462914" target="IDFM:21914">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462914" target="IDFM:21939">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462966" target="IDFM:462959">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462966" target="IDFM:462994">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462944" target="IDFM:21975">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462945" target="IDFM:21997">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462956" target="IDFM:21914">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462956" target="IDFM:21904">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462958" target="IDFM:21982">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462958" target="IDFM:21986">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462958" target="IDFM:21971">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462991" target="IDFM:462990">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:462990" target="IDFM:21946">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21975" target="IDFM:21984">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21974" target="IDFM:21904">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21974" target="IDFM:21907">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21974" target="IDFM:21988">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21971" target="IDFM:21907">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21971" target="IDFM:21982">
+  <data key="d4">6.133333333333334</data>
+</edge>
+<edge source="IDFM:21971" target="IDFM:21985">
+  <data key="d4">5.933333333333334</data>
+</edge>
+<edge source="IDFM:21986" target="IDFM:21987">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21988" target="IDFM:21989">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21988" target="IDFM:21904">
+  <data key="d4">2.0</data>
+</edge>
+<edge source="IDFM:21982" target="IDFM:21985">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21985" target="IDFM:21904">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21999" target="IDFM:490762">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21999" target="IDFM:21949">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21991" target="IDFM:21995">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21993" target="IDFM:21949">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21913" target="IDFM:21942">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21913" target="IDFM:21936">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21915" target="IDFM:21928">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21915" target="IDFM:21929">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21916" target="IDFM:21934">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21916" target="IDFM:21910">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21910" target="IDFM:21905">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21911" target="IDFM:21906">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21907" target="IDFM:21904">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21907" target="IDFM:21928">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21908" target="IDFM:21929">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21936" target="IDFM:25084">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21935" target="IDFM:21927">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21938" target="IDFM:21939">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21954" target="IDFM:21955">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21956" target="IDFM:21955">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21941" target="IDFM:21943">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21949" target="IDFM:21946">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:21943" target="IDFM:21942">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:463222" target="IDFM:483277">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:483277" target="IDFM:483279">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:483900" target="IDFM:483898">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490770" target="IDFM:490772">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490770" target="IDFM:490768">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490766" target="IDFM:490768">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490766" target="IDFM:490764">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490762" target="IDFM:490764">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490837" target="IDFM:490906">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490837" target="IDFM:490835">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490839" target="IDFM:490906">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490833" target="IDFM:490835">
+  <data key="d3">1</data>
+</edge>
+<edge source="IDFM:490833" target="IDFM:490908">
+  <data key="d3">1</data>
+</edge>
+</graph></graphml>
