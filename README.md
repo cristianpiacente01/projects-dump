@@ -18,6 +18,7 @@ The courses which included the development of a project are the following:
  - (MSc) [**Computer Security**](master-degree/sicurezza-informatica/)
  - (MSc) [**Advanced Machine Learning**](master-degree/advanced-machine-learning/)
  - (MSc) [**Information Retrieval**](master-degree/information-retrieval/)
+ - (MSc) [**Data Analytics**](master-degree/data-analytics/)
  
  - [**Software Specification and Design**](bachelor-degree/analisi-e-progettazione-software/)
  - [**Business Intelligence for Financial Services**](bachelor-degree/business-intelligence/)
