@@ -1,0 +1,4 @@
+strictness: medium
+output-format: grouped
+ignore:
+  - low

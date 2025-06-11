@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  color: whitesmoke;
+  font-family: "Avenir", sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+  border-color: whitesmoke !important;
+  background-color: whitesmoke !important;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 60px;
+  padding: 10px;
+}
+
+.formWrapper {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.formWrapper form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button {
+  background-color: #007bb8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 20px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #173B58;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.name {
+  font-family: Exo, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.redButton {
+  background-color: #b60000;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  transition: background 0.3s ease;
+}
+
+.redButton:hover {
+  background-color: #7f0000;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.eyeContainer {
+  position: relative;
+  width: 100%;
+}
+
+.eyeContainer input {
+  width: 100%;
+  padding: 10px 48px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.eyeButtons {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.eyeButton {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.eyeButton img {
+  width: 24px;
+  height: 24px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+body.dark-mode {
+  color: whitesmoke;
+  background-color: #121212;
+}
+
+body.dark-mode .formWrapper {
+  background: #333333;
+  box-shadow: 0 4px 10px rgba(100, 100, 100, 0.1);
+}
+
+body.dark-mode .button {
+  background-color: #173B58;
+  border: none;
+}
+
+body.dark-mode .button:hover {
+  background-color: #007bb8;
+}
+
+body.dark-mode input {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+body.dark-mode .redButton {
+  background-color: #7f0000;
+}
+
+body.dark-mode .redButton:hover {
+  background-color: #b60000;
+}
+
+body.dark-mode .eyeButton img {
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+body.dark-mode .a {
+  color: #007bb8;
+}
+
+body.dark-mode input:focus {
+  outline: none;
+  border: 1px solid #007bb8;
+}
+
+body.dark-mode textarea:focus {
+  outline: none;
+  border: 1px solid #007bb8;
+}
+
+body.dark-mode .link {
+  color: #007bb8;
+}

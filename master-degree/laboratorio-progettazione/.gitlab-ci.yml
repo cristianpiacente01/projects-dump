@@ -1,0 +1,108 @@
+# Use a base Docker image that includes Node.js.
+# Python is installed later using apt-get in the build stage.
+image: node:18-bullseye
+
+# Global environment variables
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"   # Cache location for pip downloads
+  VENV_PATH: "$CI_PROJECT_DIR/venv"             # Path to the Python virtual environment
+  DATABASE_URL: "sqlite:///./test.db"
+
+# Cache settings to speed up future jobs and pipelines
+cache:
+  paths:
+    - venv/                           # Cached virtual environment (Python dependencies)
+    - .cache/pip                      # Cached pip package downloads
+
+# CI/CD pipeline stages (executed in order)
+stages:
+  - build                             # Setup Python + Node.js dependencies
+  - verify                            # Linting and security checks
+  - unit_test                         # Run unit tests
+  - integration_test                  # Run integration tests
+  - docs                              # Generate documentation (GitLab Pages)
+
+# Run before every job (except in 'build' where the venv is created)
+# Here, we just activate the cached Python environment
+before_script:
+  - source $VENV_PATH/bin/activate
+
+# BUILD STAGE: Install Python + Node dependencies and cache them
+build:
+  stage: build
+  before_script: []  # Disable global before_script for this job
+  script:
+    - apt-get update && apt-get install -y python3 python3-pip python3-venv
+    - python3 -m venv $VENV_PATH
+    - source $VENV_PATH/bin/activate
+    - pip install -r backend/requirements.txt
+  only:
+    - merge_requests
+    - main
+
+# VERIFY STAGE (quality): Linting for both backend and frontend
+verify_quality:
+  stage: verify
+  script:
+    # Backend: Run Prospector (ignoring non-Python files)
+    - prospector backend/ --no-autodetect --ignore-patterns="*.txt"
+    # Frontend: Install Node.js packages and run ESLint
+    - cd frontend && npm install && npx eslint . --config eslint.config.js --ext .js,.jsx --max-warnings=0
+  allow_failure: true
+  only:
+    - merge_requests
+    - main
+
+# VERIFY STAGE (security): Run Bandit to detect security issues in Python code
+verify_security:
+  stage: verify
+  script:
+    # Run Bandit, skipping the tests folder if it exists
+    - if [ -d backend/tests ]; then
+        bandit -r backend/ --exclude backend/tests;
+      else
+        bandit -r backend/;
+      fi
+  allow_failure: true
+  only:
+    - merge_requests
+    - main
+
+# UNIT TEST STAGE: Run only tests marked as "unit"
+unit_test:
+  stage: unit_test
+  variables:
+    SENDER_EMAIL: $SENDER_EMAIL
+    SENDER_PASSWORD: $SENDER_PASSWORD
+  script:
+    - if [ -d backend/tests ]; then
+        pytest backend/tests -m "unit";
+      fi
+  only:
+    - merge_requests
+    - main
+
+# INTEGRATION TEST STAGE: Run only tests marked as "integration"
+integration_test:
+  stage: integration_test
+  variables:
+    SENDER_EMAIL: $SENDER_EMAIL
+    SENDER_PASSWORD: $SENDER_PASSWORD
+  script:
+    - if [ -d backend/tests ]; then
+        pytest backend/tests -m "integration";
+      fi
+  only:
+    - merge_requests
+    - main
+
+# DOCS STAGE: Generate static HTML documentation using pdoc and publish it with GitLab Pages
+pages:
+  stage: docs
+  script:
+    - pdoc -o public backend                # Generate docs into 'public/' folder
+  artifacts:
+    paths:
+      - public/                             # Required for GitLab Pages to serve content
+  only:
+    - main                                  # Docs are published only from the main branch
